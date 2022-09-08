@@ -49,7 +49,7 @@ function Detailed-Textures-Pack-Release {
         "`r`nPackage version: $(Git-Hash 1)`r`n" | Add-Content $env:TEMP\release\redist\detailed_textures_beta2_readme.txt
 
         Rename-Item $env:TEMP\release\redist $env:TEMP\release\$gameFolder
-        Compress-7Zip -Path $env:TEMP\release\$gameFolder -ArchiveFileName $zipFile
+        Compress-7Zip -Path $env:TEMP\release -ArchiveFileName $zipFile
     } catch {
         Throw "Could not create detailed textures pack file.`nReason: $($_.Exception.Message)"
     }

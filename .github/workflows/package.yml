@@ -6,7 +6,7 @@ env:
   FOLDER_NAME: .
 
 jobs:
-  package_detailtextures:
+  package_detailed_textures:
     runs-on: windows-latest
 
     steps:
@@ -24,6 +24,6 @@ jobs:
     - name: Archive Detail Textures Pack Release
       uses: actions/upload-artifact@v3
       with:
-        name: detail-texture-pack
+        name: detailed-textures-pack
         path: ${{env.FOLDER_NAME}}\detailed-textures-pack-git-*.7z
         if-no-files-found: error

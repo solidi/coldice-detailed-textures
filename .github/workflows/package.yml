@@ -19,11 +19,11 @@ jobs:
 
     - name: Package Detail Textures Pack
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: .\${{env.FOLDER_NAME}}\Build-Textures-Pack.ps1 -ConfigFile Config
+      run: ${{env.FOLDER_NAME}}\Build-Textures-Pack.ps1 -ConfigFile Config
 
     - name: Archive Detail Textures Pack Release
       uses: actions/upload-artifact@v3
       with:
         name: detail-texture-pack
-        path: .\${{env.FOLDER_NAME}}\detailed-textures-pack-git-*.7z
+        path: ${{env.FOLDER_NAME}}\detailed-textures-pack-git-*.7z
         if-no-files-found: error

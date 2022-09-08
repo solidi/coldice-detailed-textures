@@ -1,0 +1,35 @@
+// Detail txtures for canyon
+// Detail texture project for Cold Ice Remastered
+// Napoleon was here at some undisclosed time, 2022
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+
+!cir_water01        detail/!WATERBLUE 			1.0			1.0   
+!water2b            detail/!WATERBLUE 			1.0			1.0       
+black               detail/black 				1.0			1.0         
+cir_dirt01          detail/cir_rocks08			1.0			1.0
+cir_dirt04          detail/cir_rocks08			1.0			1.0     
+cir_grass04         detail/cir_earth01			1.0			1.0   
+cir_mount03         detail/cir_rock16			1.0			1.0    
+cir_rock01          detail/cir_rocks08			1.0			0.5     
+cir_rock03          detail/cir_rocks08			1.0			1.0    
+cir_rock04          detail/cir_rocks08			1.0			1.0
+cir_rock05          detail/cir_rocks08     		1.0			1.0
+cir_rock06          detail/cir_rocks08     		1.0			1.0
+cir_rock07          detail/cir_rocks08    		1.0			1.0
+cir_rock08          detail/cir_rocks08    		1.0			1.0
+cir_rock09          detail/cir_rocks08			1.0			1.0      
+cir_rocks11         detail/cir_dirt06			1.0			1.0 
+cir_rocks12         detail/cir_dirt06			1.0			1.0    
+cir_snow01          detail/snow2  				1.0 		1.0     
+cir_snow02          detail/snow2  				1.0 		1.0     
+out_grvl3           detail/out_grvl3			1.0			1.0     
+scrollwater         detail/!WATERBLUE			1.0			1.0    
+sky                 detail/sky					1.0			1.0
+{blue               detail/{BLUE				1.0			1.0         
+{cir_tree01         detail/snow2  				1.0 		1.0
+
+// End detail texture file.
+// What are you doing here? 
+// I hope you have not modified something...
+// If you did.. I hope you knew what you're doing...

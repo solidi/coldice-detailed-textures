@@ -1,0 +1,34 @@
+// Detail txtures for fences
+// Detail texture project for Cold Ice Remastered
+// Napoleon was here at some undisclosed time, 2022
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+
++0medkit			detail/dt_metal1 			1.0			1.0	      
++0recharge			detail/dt_metal1 			1.0			1.0	   
++0~light3a   		detail/crystallized1 		1.0			1.0  
++amedkit			detail/dt_metal1 			1.0			1.0	 
++arecharge			detail/dt_metal1 			1.0			1.0	     
++a~light3a   		detail/crystallized1 		1.0			1.0     
+cir_rocks12    		detail/cir_rock16			1.0			1.0
+cir_snow02			detail/snow2  				1.0 		1.0     
+cir_wall08			detail/wall_generic			1.0			1.0     
+cir_wood07			detail/cir_wood07			1.0 		1.0 
+crete4_flr03   		detail/cir_floor04			1.0			1.0
+fade2				detail/dt_metal1 			1.0			1.0	       
+generic108a			detail/dt_metal1 			1.0			1.0	    
+lab1_stair2a		detail/lab1_stair2a			1.0			1.0
+medkitedge1			detail/dt_metal1 			1.0			1.0 
+out_wlk2			detail/out_wlk2				1.0			1.0
+rechargeedge1		detail/dt_metal1 			1.0			1.0  
+sky            		detail/SKY 					1.0 		1.0               
+xcrate7a   			detail/xcrate7a 			1.0			1.0  
+xcrate7b       		detail/xcrate7b				1.0			1.0
+xcrate7c      		detail/xcrate7c				1.0			1.0
+{cir_fence01		detail/dt_metal1 			1.0			1.0 
+~light5f			detail/light3b				1.0			1.0
+
+// End detail texture file.
+// What are you doing here? 
+// I hope you have not modified something...
+// If you did.. I hope you knew what you're doing...

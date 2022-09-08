@@ -1,0 +1,63 @@
+// Detail txtures for stalkyard2
+// Detail texture project for Cold Ice Remastered
+// Napoleon was here at some undisclosed time, 2022
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+
++0medkit 			detail/dt_metal1 			1.0			1.0	      
++0recharge			detail/dt_metal1 			1.0			1.0	       
++0~fifties_lgt2		detail/+0~fifts_lght3		1.0			1.0
++0~fifts_lght01  	detail/+0~fifts_lght01		1.0			1.0	
++amedkit			detail/dt_metal1 			1.0			1.0	          
++arecharge			detail/dt_metal1 			1.0			1.0	       
++a~fifties_lgt2   	detail/+0~fifts_lght3		1.0			1.0
++a~fifts_lght01		detail/+0~fifts_lght01		1.0			1.0
+-0out_grnd2b   		detail/-2out_grnd2b			1.0			1.0
+-0tnnl_c1b2     	detail/tnnl_c1b2			1.0			1.0
+-1out_grnd2b   		detail/-2out_grnd2b			1.0			1.0  
+-1tnnl_c1b2       	detail/tnnl_c1b2			1.0			1.0
+-2out_grnd2b		detail/-2out_grnd2b			1.0			1.0
+-2tnnl_c1b2       	detail/tnnl_c1b2			1.0			1.0
+-3tnnl_c1b2       	detail/tnnl_c1b2			1.0			1.0
+ammo01     			detail/ammo01				1.0			1.0      
+black        		detail/BLACK 				1.0			1.0            
+c1a4i_w1b			detail/c1a4i_w1b			1.0			1.0
+c2a5_gun1      		detail/c2a5_gun1			1.0			1.0
+crate02          	detail/crate02				1.0			1.0
+crate02b     		detail/crate02				1.0			1.0    
+crate05         	detail/crate06				1.0			1.0
+crate06				detail/crate06				1.0			1.0
+crate09         	detail/crate09				1.0			1.0	
+crate09b          	detail/crate09b 			1.0			1.0
+crate09c          	detail/crate09				1.0			1.0
+crete4_flr03    	detail/cir_floor04			1.0			1.0
+fifties_wall14x		detail/dt_metal1 			1.0			1.0	 
+generic015q 		detail/dt_metal1 			1.0			1.0	     
+lab1_gdpnl5b    	detail/LAB1_GDPNL5B			1.0			1.0
+medkitedge1			detail/dt_metal1 			1.0			1.0	     
+metal_bord05     	detail/METAL_BORD05			1.0			1.0
+out_gravel			detail/out_gravel			1.0			1.0
+out_wall6b      	detail/out_wall6			1.0			1.0  
+pfab_vent2       	detail/pfab_vent2			1.0			1.0
+rechargeedge1		detail/dt_metal1 			1.0			1.0	   
+silo2_w1         	detail/silo2_w1				1.0			1.0
+sky            		detail/SKY 					1.0 		1.0  
+tnnl_c1         	detail/tnnl_c1				1.0			1.0 
+tnnl_c1b2          	detail/tnnl_c1				1.0			1.0         
+tnnl_flr1a       	detail/tnnl_flr1a			1.0			1.0
+tnnl_flr2        	detail/tnnl_flr2			1.0			1.0
+tnnl_flr3b			detail/tnnl_flr3b			1.0			1.0
+tnnl_swrc1       	detail/tnnl_swrc1			1.0			1.0
+tnnl_w12a        	detail/tnnl_w12a			1.0			1.0
+tnnl_w4c2        	detail/tnnl_w4c2			1.0			1.0
+xcrate7a         	detail/xcrate7a				1.0			1.0
+xcrate7b			detail/xcrate7b				1.0			1.0
+{ladder2			detail/dt_metal1 			1.0			1.0	        
+~lab1_comp8b		detail/dt_metal1 			1.0			1.0	      
+~light3a        	detail/light3b				1.0			1.0
+~light5a			detail/light3b				1.0			1.0
+
+// End detail texture file.
+// What are you doing here? 
+// I hope you have not modified something...
+// If you did.. I hope you knew what you're doing...

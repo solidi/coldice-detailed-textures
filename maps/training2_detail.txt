@@ -1,0 +1,70 @@
+// Detail txtures for training2
+// Detail texture project for Cold Ice Remastered
+// Napoleon was here at some undisclosed time, 2022
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+
+8ball1				detail/dt_metal1 			1.0			1.0                 
+basetrim01          detail/basetrim01			1.0			1.0
+black         		detail/BLACK 				1.0			1.0        
+cir_brick04         detail/stone				1.0			1.0  
+cir_brick12         detail/brickwall034a       	1.0			1.0
+cir_brick13         detail/brickwall034a		1.0			1.0
+cir_brick14         detail/brickwall034a		1.0			1.0
+cir_brick17   		detail/wall      			1.0			1.0
+cir_crate04         detail/cir_crate04			1.0			1.0 
+cir_crate05         detail/c3a1_crate3			1.0			1.0
+cir_crate07         detail/c3a1_crate3_detail	1.0			1.0
+cir_crate15         detail/cir_crate15			1.0			1.0
+cir_crate17   		detail/crate02				1.0			1.0
+cir_crate19         detail/crate25				1.0			1.0
+cir_crate24         detail/crate10_stalkyard	1.0			1.0
+cir_crate25         detail/crate10_stalkyard	1.0			1.0
+cir_crate26         detail/crate10_stalkyard	1.0			1.0
+cir_dirt06   		detail/cir_dirt06  			1.0 		1.0 
+cir_door01          detail/dt_metal1 			1.0			1.0 
+cir_door02          detail/dt_metal1 			1.0			1.0 
+cir_door05          detail/dt_metal1 			1.0			1.0 
+cir_door06          detail/dt_metal1 			1.0			1.0 
+cir_door08   		detail/dt_metal1 			1.0			1.0 
+cir_floor03         detail/c1a1_flr2b			1.0			1.0
+cir_grass04         detail/cir_earth01			1.0			1.0
+cir_metal01         detail/tnnl_flr12			1.0			1.0
+cir_metal04         detail/tnnl_flr12			1.0			1.0
+cir_metal05   		detail/dt_metal1 			1.0			1.0     
+cir_metal07         detail/dt_metal1 			1.0			1.0  
+cir_pavement01      detail/crete2_flr01			1.0			1.0
+cir_rock03          detail/cir_rocks08			1.0			1.0
+cir_rocks03         detail/cir_rocks08     		1.0			1.0
+cir_rocks12   		detail/cir_rocks08     		1.0			1.0
+cir_sign02			detail/dt_metal1 			1.0			1.0            
+cir_snow02          detail/snow2  				1.0 		1.0
+cir_stone01         detail/cir_rocks08			1.0			1.0  
+cir_stone06         detail/cir_rocks08			1.0			1.0  
+cir_wall07   		detail/cir_wall07			1.0			1.0
+cir_wall11          detail/cir_wall07			1.0			0.25  
+cir_wood09          detail/cir_wood07a 			1.0			1.0
+cir_wood12          detail/cir_wood12a 			1.0			1.0
+cir_wood14          detail/cir_wood07a			1.0			1.0
+crete2_flr03c   	detail/crete2_flr03c		1.0			1.0
+drkmtlt_bord11      detail/dt_metal1 			1.0			1.0 
+fade2               detail/fade2				1.0			1.0
+flatbed_tlite1  	detail/flatbed_tlite1		1.0			1.0    
+generic014h         detail/generic014h			1.0			1.0
+generic015h   		detail/generic015h			1.0			1.0
+sky            		detail/SKY 					1.0 		1.0                  
+trrm_sign5			detail/dt_metal1 			1.0			1.0           
+{blue				detail/{BLUE				1.0			1.0	                 
+{cir_tree04         detail/snow2  				1.0 		1.0         
+{cir_tree05         detail/snow2  				1.0 		1.0   
+{fence				detail/dt_metal1 			1.0			1.0                
+{gate				detail/dt_metal1 			1.0			1.0                 
+{invisible			detail/{BLUE				1.0			1.0	            
+{ladder2			detail/dt_metal1 			1.0			1.0             
+{rail2				detail/dt_metal1 			1.0			1.0    
+~light5f   			detail/light3b				1.0			1.0
+
+// End detail texture file.
+// What are you doing here? 
+// I hope you have not modified something...
+// If you did.. I hope you knew what you're doing...

@@ -1,0 +1,75 @@
+// Detail txtures for drift
+// Detail texture project for Cold Ice Remastered
+// Napoleon was here at some undisclosed time, 2022
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+
++0~fifties_lgt2     detail/+0~fifts_lght3		1.0			1.0   
++a~fifties_lgt2     detail/+0~fifts_lght3		1.0			1.0   
+bcrate02        	detail/crate08_stalkyard	1.0			1.0
+bcrate03       		detail/crate05_stalkyard	1.0			1.0          
+bcrate05        	detail/crate05_stalkyard	1.0			1.0          
+bcrate12        	detail/crate11_endcamp1		1.0			1.0          
+c1a1_crate1        	detail/c1a1_crate1      	1.0			1.0
+c1a1_crate2        	detail/c1a1_crate2			1.0			1.0
+cir_brick04        	detail/stone				1.0			1.0       
+cir_brick08        	detail/brickwall034a		1.0			1.0          
+cir_brick09        	detail/brickwall034a       	1.0			1.0   
+cir_brick12        	detail/brickwall034a       	1.0			1.0   
+cir_brick15        	detail/brickwall034a		1.0			1.0   
+cir_brick16        	detail/wall					1.0			1.0       
+cir_brick17        	detail/wall      			1.0			1.0
+cir_crate01        	detail/crate21d 			1.0			1.0       
+cir_crate02        	detail/crate21d 			1.0			1.0       
+cir_crate10        	detail/cir_crate16a			1.0			1.0
+cir_crate11        	detail/cir_crate16			1.0			1.0       
+cir_crate13        	detail/crate02				1.0			1.0       
+cir_crate14        	detail/crate02				1.0			1.0       
+cir_crate15        	detail/cir_crate15			1.0			1.0       
+cir_crate16        	detail/crate_01				1.0			1.0
+cir_crate17       	detail/crate10_stalkyard	1.0			1.0       
+cir_crate18        	detail/crate10_stalkyard    1.0			1.0   
+cir_crate19        	detail/dt_metal1			1.0			1.0       
+cir_crate20        	detail/crate10_stalkyard   	1.0			1.0    
+cir_crate24        	detail/crate10_stalkyard	1.0			1.0
+cir_crate25        	detail/crate10_stalkyard    1.0			1.0   
+cir_crate26        	detail/crate10_stalkyard    1.0			1.0   
+cir_crate31        	detail/dt_metal1			1.0			1.0       
+cir_crate32        	detail/dt_metal1			1.0			1.0       
+cir_crate33        	detail/dt_metal1			1.0			1.0
+cir_crate34        	detail/dt_metal1			1.0			1.0       
+cir_crate35        	detail/dt_metal1			1.0			1.0       
+cir_crate36        	detail/cardbox4				1.0			1.0       
+cir_crate37        	detail/cardbox4				1.0			1.0       
+cir_outdoor01       detail/c2a2_sd				1.0			1.0
+cir_path03        	detail/wall_generic			1.0			1.0        
+cir_path05        	detail/wall_generic			1.0			1.0        
+cir_road01        	detail/c3a1_w3b				1.0			1.0        
+cir_rocks05        	detail/cir_rocks08     		1.0			1.0       
+cir_snow01        	detail/snow2  				1.0 		1.0
+cir_snow02        	detail/snow2  				1.0 		1.0        
+cir_snow03        	detail/snow2  				1.0 		1.0        
+cir_snow04        	detail/snow2  				1.0 		1.0        
+cir_snow05        	detail/snow2  				1.0 		1.0        
+cir_stone03        	detail/cir_rocks08			1.0			1.0
+cir_wall07        	detail/cir_wall07			1.0			1.0       
+cir_wall08        	detail/cir_wall09			1.0			1.0      
+cir_wall11        	detail/cir_wall07			1.0			0.25       
+cir_wood14        	detail/cir_wood07a			1.0			1.0        
+crate02b        	detail/crate02				1.0			1.0  
+crate05        		detail/crate05_stalkyard	1.0			1.0           
+crate08        		detail/crate08_stalkyard    1.0			1.0       
+crate08b        	detail/crate08_stalkyard    1.0			1.0     
+crate12        		detail/crate11_endcamp		1.0			1.0          
+crate13        		detail/crate13_stalkyard  	1.0			1.0
+crate22        		detail/crate22				1.0			1.0           
+crate23        		detail/crate22				1.0			1.0           
+crate24        		detail/crate24				1.0			1.0           
+crate27        		detail/crate27				1.0			1.0           
+generic011        	detail/crete2_flr02			1.0			1.0
+sky        			detail/sky					1.0			1.0
+
+// End detail texture file.
+// What are you doing here? 
+// I hope you have not modified something...
+// If you did.. I hope you knew what you're doing...

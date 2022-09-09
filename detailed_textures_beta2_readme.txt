@@ -20,14 +20,14 @@ Installation and enabled:
 Credits:
 
 Napoleon - for assembling, editing, and creation portions of these overlay textures - https://www.moddb.com/mods/flatlinea
-Crowbar (HearthWing)
 RabWorc - https://gamebanana.com/mods/6737
-M1chi
-Protostar
 Chain Studios - https://www.moddb.com/company/chain-studios
 Cred-Injuries - https://gamebanana.com/members/790621
-DiscountKiller
 DocRock - https://gamebanana.com/members/177329
 Nightwatch (canceled HL1 Mod) - https://www.moddb.com/mods/half-life-nightwatch
+Crowbar (HearthWing)
+M1chi
+Protostar
+DiscountKiller
 Valve
 Ritual Entertainment

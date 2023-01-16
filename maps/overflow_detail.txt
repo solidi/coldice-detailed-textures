@@ -1,0 +1,119 @@
+// Detail txtures for overflow
+// Detail texture project for Cold Ice Remastered
+// Napoleon was here at some undisclosed time, 2023
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+
+// 107 textures 
+
++0button1				detail/button1 				1.0			1.0 
++0medkit				detail/dt_metal1 			1.0			1.0
++0~fifts_lght06			detail/+0~fifts_lght4		1.0			1.0  
++0~light5a				detail/crystallized1 		1.0			1.0 
++abutton1				detail/button1 				1.0			1.0 
++amedkit				detail/dt_metal1 			1.0			1.0
++a~fifts_lght06			detail/+0~fifts_lght4		1.0			1.0  
++a~light5a				detail/crystallized1 		1.0			1.0 
+-0c2a4e_w1				detail/-0c2a4e_w1			1.0			1.0
+-0tnnl_flr1				detail/-0tnnl_flr1			1.0			1.0 
+-1c2a4e_w1				detail/-0c2a4e_w1			1.0			1.0
+-1tnnl_flr1				detail/-0tnnl_flr1			1.0			1.0
+-2tnnl_flr1				detail/-0tnnl_flr1			1.0			1.0
+-3tnnl_flr1				detail/-0tnnl_flr1			1.0			1.0
+babtech_bordl8			detail/dt_metal1 			1.0			1.0
+babtech_bordl9			detail/babtech_bordl9		1.0			1.0 
+babtech_dr4				detail/babtech_dr4			1.0			1.0
+babtech_wall03			detail/c2a1_w1				1.0			1.0
+basetrim01				detail/dt_metal1 			1.0			1.0
+basetrim02				detail/dt_metal1 			1.0			1.0
+black					detail/dt_metal1 			1.0			1.0
+c1a1c_w1				detail/c1a1c_w1				1.0			1.0
+c1a1c_w2				detail/c1a1c_w2				1.0			1.0
+c1a3floor02				detail/c1a3floor02			1.0			1.0
+c1a4i_c1a				detail/dt_metal1 			1.0			1.0
+c1a4i_w1c				detail/C1A4I_W1C 			1.0 		1.0
+c1a4_c1c				detail/c1a4_c1c				1.0			1.0 
+c2a3_crane1				detail/dt_metal1 			1.0			1.0
+c2a4x_c1				detail/dt_metal1 			1.0			1.0
+c3a1_nrc2b				detail/wall_generic			1.0			1.0
+c3a1_w2					detail/c3a1_w2a				1.0			1.0
+c3a2a_w1				detail/dt_metal1 			1.0			1.0
+c3a2a_w1l				detail/dt_metal1 			1.0			1.0
+cir_brick04				detail/stone				1.0			1.0 
+cir_brick07				detail/crete3_wall01		1.0			1.0
+cir_brick08				detail/brickwall034a		1.0			1.0 
+cir_brick09				detail/cir_brick09			1.0			1.0 
+cir_brick15				detail/brickwall034a		1.0			1.0
+cir_brick17				detail/wall      			1.0			1.0
+cir_floor03				detail/c1a1_flr2b			1.0			1.0 
+cir_floor04				detail/cir_floor04			1.0 		1.0
+cir_floor05				detail/dt_metal1			1.0			1.0
+cir_floor06				detail/dt_metal1 			1.0			1.0
+cir_metal03				detail/dt_metal1 			1.0			1.0
+cir_metal04				detail/dt_metal1 			1.0			1.0
+cir_metal05				detail/dt_metal1 			1.0			1.0
+cir_metal06				detail/dt_metal1 			1.0			1.0
+cir_metal07				detail/dt_metal1 			1.0			1.0
+cir_metal08				detail/dt_metal1 			1.0			1.0
+cir_rock16				detail/cir_rocks03			1.0 		1.0
+cir_rocks01				detail/cir_rocks08			1.0			0.5
+cir_rocks04				detail/cir_rocks08			1.0			1.0
+cir_snow01				detail/snow2  				1.0 		1.0 
+cir_snow05				detail/snow2  				1.0 		1.0 
+cir_stone11				detail/dt_metal1 			1.0			1.0
+cir_wall01				detail/cir_wall09			1.0			1.0
+cir_wall05				detail/cir_wall10			1.0			1.0
+cir_wall06				detail/cir_wall09			1.0			1.0
+cir_wall10				detail/cir_wall10  			1.0 		1.0
+cir_wall15				detail/wall_generic2		1.0			1.0
+con1_bord02				detail/dt_metal1 			1.0			1.0
+crete4_flr02			detail/crete4_flr02			1.0			1.0
+crete4_stp01			detail/crete4_stp01			1.0			1.0
+drkmtlt_bord15			detail/dt_metal1 			1.0			1.0
+elev1_trim				detail/dt_metal1 			1.0			1.0
+generic006				detail/dt_metal1 			1.0			1.0
+generic012				detail/generic012			1.0			1.0 
+generic015v4			detail/dt_metal1 			1.0			1.0
+lab1_gdpnl5				detail/dt_metal1 			1.0			1.0    
+lab1_panel1				detail/dt_metal1 			1.0			1.0
+lab1_panel2				detail/dt_metal1 			1.0			1.0
+lab1_panelf				detail/dt_metal1 			1.0			1.0
+lab1_stair2b			detail/lab1_stair2b			1.0			1.0  
+lab1_w1a				detail/dt_metal1 			1.0			1.0
+lab1_w1b				detail/dt_metal1 			1.0			1.0
+lab1_w1c				detail/dt_metal1 			1.0			1.0
+lab2_w4					detail/dt_metal1 			1.0			1.0
+medkitedge1				detail/dt_metal1 			1.0			1.0
+scrollwater1			detail/!WATERBLUE 			1.0			1.0 
+scroll_conv3			detail/dt_metal1 			1.0			1.0
+silo2_brd1a				detail/silo2_brd1a     		1.0			1.0  
+silo2_brd1b				detail/dt_metal1 			1.0			1.0	
+silo2_wet1				detail/dt_metal1 			1.0			1.0
+silo2_wet2				detail/dt_metal1 			1.0			1.0
+silo2_wet3				detail/dt_metal1 			1.0			1.0
+silo2_wet4				detail/silo2_wet4			1.0			1.0 
+sky						detail/dt_metal1 			1.0			1.0
+stain_flr03b			detail/dt_metal1 			1.0			1.0
+stripes5				detail/stripes5				1.0			1.0
+tnnl_brd1b				detail/tnnl_brd1b			1.0			1.0 
+tnnl_flr1a				detail/tnnl_flr1a			1.0			1.0
+tnnl_flr4				detail/tnnl_flr4			1.0			1.0
+tnnl_flr7c				detail/tnnl_flr7c			1.0			1.0 
+tnnl_flr8				detail/tnnl_flr8			1.0			1.0
+tnnl_swr1				detail/tnnl_swr1			1.0			1.0
+tnnl_swr2				detail/tnnl_swr1			1.0			1.0
+tnnl_w5a				detail/tnnl_w5a				1.0			1.0
+tnnl_w5g				detail/tnnl_w5g				1.0			1.0 
+water4b					detail/WATER4B 				1.0 		1.0
+{blue					detail/dt_metal1 			1.0			1.0	
+{cir_grate02			detail/dt_metal1 			1.0			1.0	
+{cir_wire02				detail/dt_metal1 			1.0			1.0	
+{grate4a				detail/dt_metal1 			1.0			1.0	
+{icicle1				detail/dt_metal1 			1.0			1.0	
+{ladder3b				detail/dt_metal1 			1.0			1.0	
+~light5a				detail/light3b				1.0			1.0
+
+// End detail texture file.
+// What are you doing here? 
+// I hope you have not modified something...
+// If you did.. I hope you knew what you're doing...

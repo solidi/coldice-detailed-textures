@@ -1,4 +1,4 @@
-Cold Ice Remastered Edition Detailed Textures Pack for Beta 2
+Cold Ice Remastered Edition Detailed Textures Pack for Beta 3
 
 This project is a modern open-sourced rebuild of Cold Ice 1.75, a popular Half-Life mod back in 1999. Set in a winter scene, its philosophy is to deliver deathmatch that doesn't take itself seriously. Only in this mod will you find voiceover cameos from Samuel L. Jackson, Hans Gruber, and "Leeroy Jenkins" by Ben Schulz. Its ethos delivers an explosively frantic fast-paced gameplay that was and always will be Cold Ice.
 
@@ -8,11 +8,11 @@ Library game code: https://github.com/solidi/coldice-remastered
 Project redist and assets: https://github.com/solidi/hl-mods
 Join us on Discord: https://discord.gg/Hu2Q6pcJn3
 
-This package contains high-detailed textures for all maps of Cold Ice Remastered Beta 2.
+This package contains high-detailed textures for all maps of Cold Ice Remastered Beta 3.
 
 Installation and enabled:
 
-1. Uncompress the downloaded archive directly into the ice_beta2/ folder
+1. Uncompress the downloaded archive directly into the ice_beta3/ folder
 2. Start a game with the console enabled
 3. Type `r_detailtextures 1`
 4. Enjoy the higher resolution textures during gameplay

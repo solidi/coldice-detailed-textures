@@ -44,9 +44,9 @@ function Detailed-Textures-Pack-Release {
         [void](New-Item -ItemType directory -Path $env:TEMP\release\redist\gfx)
         [void](New-Item -ItemType directory -Path $env:TEMP\release\redist\gfx\detail)
         Copy-Item -Recurse -Force $detailedTexturesDir\gfx\detail $env:TEMP\release\redist\gfx
-        Copy-Item -Recurse -Force $detailedTexturesDir\detailed_textures_beta2_readme.txt $env:TEMP\release\redist
+        Copy-Item -Recurse -Force $detailedTexturesDir\detailed_textures_readme.txt $env:TEMP\release\redist
 
-        "`r`nPackage version: $(Git-Hash 1)`r`n" | Add-Content $env:TEMP\release\redist\detailed_textures_beta2_readme.txt
+        "`r`nPackage version: $(Git-Hash 1)`r`n" | Add-Content $env:TEMP\release\redist\detailed_textures_readme.txt
 
         Rename-Item $env:TEMP\release\redist $env:TEMP\release\$gameFolder
         Compress-7Zip -Path $env:TEMP\release\$gameFolder -ArchiveFileName $zipFile

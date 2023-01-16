@@ -51,7 +51,7 @@ cir_crate03			detail/cir_crate03			1.0			1.0
 cir_crate04			detail/cir_crate04			1.0			1.0
 cir_crate05			detail/c3a1_crate3			1.0			1.0
 cir_crate06			detail/c3a1_crate3			1.0			1.0
-cir_crate07			detail/c3a1_crate3_detail	1.0			1.0
+cir_crate07			detail/cir_crate04			1.0			1.0
 cir_crate08			detail/cir_crate04			1.0			1.0 
 cir_crate10			detail/cir_crate16a			1.0			1.0
 cir_crate11			detail/cir_crate16			1.0			1.0 

@@ -8,7 +8,7 @@
 
 !c2a54b					detail/WATER4B 				1.0 		1.0
 +0button1				detail/button1 				1.0			1.0 
-+0medkit				detail/crystallized1 		1.0			1.0 
++0medkit				detail/dt_metal1	 		1.0			1.0
 +0recharge				detail/dt_metal1 			1.0			1.0
 +0~fifts_lght06			detail/+0~fifts_lght4		1.0			1.0
 +0~generic65			detail/crystallized1 		1.0			1.0 

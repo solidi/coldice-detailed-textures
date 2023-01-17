@@ -1,0 +1,52 @@
+// Detail txtures for frosty
+// Detail texture project for Cold Ice Remastered
+// Napoleon was here at some undisclosed time, 2023
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+
+// 39 textures 
+
++0medkit			detail/dt_metal1 			1.0			1.0
++0~fifts_lght06		detail/+0~fifts_lght4		1.0			1.0
++0~light5a			detail/crystallized1 		1.0			1.0
++amedkit			detail/dt_metal1 			1.0			1.0
++a~fifts_lght06		detail/+0~fifts_lght4		1.0			1.0
++a~light5a			detail/crystallized1 		1.0			1.0
+babtech_ceil01		detail/babtech_ceil01		1.0			1.0  
+babtech_wall01a		detail/dt_metal1 			1.0			1.0
+basetrim02			detail/basetrim02			1.0			1.0  
+black				detail/dt_metal1 			1.0			1.0
+c1a1w1k				detail/dt_metal1 			1.0			1.0
+c1a1w1o				detail/dt_metal1 			1.0			1.0
+c1a3wall03			detail/dt_metal1 			1.0			1.0
+c1a3wall06			detail/dt_metal1 			1.0			1.0
+c1a4i_c1a			detail/dt_metal1 			1.0			1.0
+c1a4_c1c			detail/c1a4_c1c				1.0			1.0
+c2a3rustdoor1		detail/dt_metal1 			1.0			1.0
+c3a1_w2				detail/c3a1_w2a				1.0			1.0
+cir_brick15			detail/brickwall034a		1.0			1.0 
+cir_floor03			detail/c1a1_flr2b			1.0			1.0 
+cir_floor05			detail/dt_metal1 			1.0			1.0
+cir_floor06			detail/dt_metal1 			1.0			1.0
+cir_metal06			detail/dt_metal1 			1.0			1.0
+cir_metal08			detail/dt_metal1 			1.0			1.0
+cir_mount05			detail/dt_metal1 			1.0			1.0 
+cir_rocks04			detail/cir_rocks08			1.0			1.0
+cir_rocks09			detail/cir_rocks08			1.0			1.0
+cir_snow01			detail/snow2  				1.0 		1.0 
+cir_wall07			detail/cir_wall07			1.0 		1.0 
+generic012			detail/generic012			1.0			1.0 
+medkitedge1			detail/dt_metal1 			1.0			1.0
+sky					detail/dt_metal1 			1.0			1.0
+yellow				detail/dt_metal1 			1.0			1.0
+{blue				detail/dt_metal1 			1.0			1.0
+{grate4a			detail/dt_metal1 			1.0			1.0
+{icicle1			detail/dt_metal1 			1.0			1.0
+{ladder1			detail/dt_metal1 			1.0			1.0
+{rail3				detail/dt_metal1 			1.0			1.0
+~light5a			detail/light3b				1.0			1.0
+
+// End detail texture file.
+// What are you doing here? 
+// I hope you have not modified something...
+// If you did.. I hope you knew what you're doing...

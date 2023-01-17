@@ -14,7 +14,7 @@ cir_brick14         detail/brickwall034a		1.0			1.0
 cir_brick17   		detail/wall      			1.0			1.0
 cir_crate04         detail/cir_crate04			1.0			1.0 
 cir_crate05         detail/c3a1_crate3			1.0			1.0
-cir_crate07         detail/c3a1_crate3_detail	1.0			1.0
+cir_crate07         detail/cir_crate04			1.0			1.0
 cir_crate15         detail/cir_crate15			1.0			1.0
 cir_crate17   		detail/crate02				1.0			1.0
 cir_crate19         detail/crate25				1.0			1.0

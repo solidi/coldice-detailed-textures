@@ -26,8 +26,7 @@ $host.UI.RawUI.WindowTitle = "Packaging Detailed Textures"
 Import-Module $PSScriptRoot\powershell\Package-Release.psm1 -Force -DisableNameChecking
 
 $rootDir = ${PSScriptRoot}.Trimend('\')
-$gameFolder = $Config['gameFolder'] ?? "ice_beta3"
 
-Detailed-Textures-Pack-Release $rootDir $gameFolder
+Detailed-Textures-Pack-Release $rootDir
 
 Set-Location -Path ${PSScriptRoot}

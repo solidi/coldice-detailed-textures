@@ -4,13 +4,15 @@ on: [push]
 
 env:
   FOLDER_NAME: .
+  CHECKOUT: actions/checkout@v4
+  UPLOAD: actions/upload-artifact@v4
 
 jobs:
   package_detailed_textures:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: ${{env.CHECKOUT}}
 
     - name: Write Config File
       working-directory: ${{env.GITHUB_WORKSPACE}}
@@ -22,7 +24,7 @@ jobs:
       run: ${{env.FOLDER_NAME}}\Build-Textures-Pack.ps1 -ConfigFile Config
 
     - name: Archive Detail Textures Pack Release
-      uses: actions/upload-artifact@v3
+      uses: ${{env.UPLOAD}}
       with:
         name: detailed-textures-pack
         path: ${{env.FOLDER_NAME}}\detailed-textures-pack-git-*.7z

@@ -1,0 +1,10 @@
+// Detail txtures for glupshitto
+// Detail texture project for Cold Ice Remastered
+// Created by GitHub Copilot, 2026
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+cir_snow02          	detail/snow2                   	1.0			1.0
+lab1_stair1b        	detail/lab1_stair1b            	1.0			1.0
+lab1_trim3          	detail/lab1_trim3              	1.0			1.0
+sky                 	detail/SKY                     	1.0			1.0
+

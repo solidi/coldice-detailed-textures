@@ -1,0 +1,46 @@
+// Detail txtures for datafloe
+// Detail texture project for Cold Ice Remastered
+// Created by GitHub Copilot, 2026
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+-0c2a4_pan1         	detail/-0c2a4_pan1             	1.0			1.0
+{ladder1            	detail/{LADDER1                	1.0			1.0
+{rail1              	detail/dt_metal1               	1.0			1.0
++0~light4a          	detail/crystallized1           	1.0			1.0
++0lab1_w7           	detail/+0lab1_w7               	1.0			1.0
++0medkit            	detail/dt_metal1               	1.0			1.0
++0recharge          	detail/dt_metal1               	1.0			1.0
+~generic88          	detail/~generic88              	1.0			1.0
+babtech_bordl9      	detail/babtech_bordl9          	1.0			1.0
+basetrim01          	detail/dt_metal1               	1.0			1.0
+black               	detail/black                   	1.0			1.0
+c2a4x_brd2b         	detail/c2a4x_brd2b             	1.0			1.0
+c2a4x_h2e           	detail/c2a4x_h2e               	1.0			1.0
+c2a4x_h2e2          	detail/c2a4x_h2e2              	1.0			1.0
+c2a4x_pan3          	detail/c2a4x_pan3              	1.0			1.0
+cir_snow01          	detail/snow2                   	1.0			1.0
+cir_snow02          	detail/snow2                   	1.0			1.0
+cir_wall07          	detail/cir_wall07              	1.0			1.0
+cir_wall09          	detail/cir_wall09              	1.0			1.0
+crete2_flr03c       	detail/crete2_flr03c           	1.0			1.0
+crete3_flr04        	detail/crete3_flr04            	1.0			1.0
+duct_wall01         	detail/duct_wall01             	1.0			1.0
+elev2_flr           	detail/elev2_flr               	1.0			1.0
+generic012          	detail/generic012              	1.0			1.0
+generic015h         	detail/generic015h             	1.0			1.0
+lab1_stair2a        	detail/lab1_stair2a            	1.0			1.0
+lab1_stair2b        	detail/lab1_stair2b            	1.0			1.0
+lab1_trim3          	detail/lab1_trim3              	1.0			1.0
+lab1_w8flr1b        	detail/lab1_w8flr1b            	1.0			1.0
+lab3_brd5           	detail/lab3_brd5               	1.0			1.0
+medkitedge1         	detail/dt_metal1               	1.0			1.0
+rechargeedge1       	detail/dt_metal1               	1.0			1.0
+sky                 	detail/SKY                     	1.0			1.0
+stripes2            	detail/stripes2                	1.0			1.0
+table               	detail/table                   	1.0			1.0
+tnnl_c3d            	detail/tnnl_c3d                	1.0			1.0
+tnnl_flr12a         	detail/tnnl_flr12a             	1.0			1.0
+tnnl_flr2           	detail/tnnl_flr2               	1.0			1.0
+tnnl_flr4           	detail/tnnl_flr4               	1.0			1.0
+tnnl_lgtbrd2        	detail/tnnl_lgtbrd2            	1.0			1.0
+

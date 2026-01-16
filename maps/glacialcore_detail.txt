@@ -1,0 +1,22 @@
+// Detail txtures for glacialcore
+// Detail texture project for Cold Ice Remastered
+// Created by GitHub Copilot, 2026
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+{ladder1            	detail/{LADDER1                	1.0			1.0
++0lab1_w7           	detail/+0lab1_w7               	1.0			1.0
++0medkit            	detail/dt_metal1               	1.0			1.0
++0recharge          	detail/dt_metal1               	1.0			1.0
+black               	detail/black                   	1.0			1.0
+c1a0_w4             	detail/C1A0_W4                 	1.0			1.0
+cir_snow01          	detail/snow2                   	1.0			1.0
+duct_break          	detail/duct_break              	1.0			1.0
+duct_flr02          	detail/duct_flr02              	1.0			1.0
+duct_vnt            	detail/duct_vnt2               	1.0			1.0
+lab1_stair2a        	detail/lab1_stair2a            	1.0			1.0
+lab3_brd4b          	detail/lab3_brd4b              	1.0			1.0
+medkitedge1         	detail/dt_metal1               	1.0			1.0
+rechargeedge1       	detail/dt_metal1               	1.0			1.0
+sky                 	detail/SKY                     	1.0			1.0
+stripes2            	detail/stripes2                	1.0			1.0
+

@@ -16,7 +16,7 @@ cir_wood12          	detail/cir_wood12              	1.0			1.0
 crete2_flr02        	detail/crete2_flr01            	1.0			1.0
 generic009          	detail/generic009              	1.0			1.0
 generic012          	detail/generic012              	1.0			1.0
-generic039          	detail/dt_metal1               	1.0			1.0
+generic039          	detail/generic039              	1.0			1.0
 out_pave2           	detail/out_pave2               	1.0			1.0
 sky                 	detail/SKY                     	1.0			1.0
 

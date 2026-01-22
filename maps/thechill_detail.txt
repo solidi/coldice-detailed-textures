@@ -5,13 +5,13 @@
 // [texture name]	[detail texture name]		[hscale]	[vscale]
 {blue               	detail/{BLUE                   	1.0			1.0
 babtech_ceil01      	detail/babtech_ceil01          	1.0			1.0
-basetrim01          	detail/dt_metal1               	1.0			1.0
+basetrim01          	detail/basetrim01              	1.0			1.0
 black               	detail/black                   	1.0			1.0
 c1a3floor02         	detail/c1a3floor02             	1.0			1.0
-c1a3wall03          	detail/dt_metal1               	1.0			1.0
+c1a3wall03          	detail/c1a3wall03              	1.0			1.0
 c1a4_c1c            	detail/c1a4_c1c                	1.0			1.0
 c1a4i_w1a           	detail/c1a4i_w1a               	1.0			1.0
-c2a1_w1             	detail/c2a4e_w1                	1.0			1.0
+c2a1_w1             	detail/c2a1_w1                 	1.0			1.0
 c3a1_w3b            	detail/c3a1_w3b                	1.0			1.0
 c3a1_w5a            	detail/c3a1_w5a                	1.0			1.0
 c3a1_w5d            	detail/c3a1_w5d                	1.0			1.0

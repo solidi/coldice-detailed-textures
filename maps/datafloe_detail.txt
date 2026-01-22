@@ -5,14 +5,14 @@
 // [texture name]	[detail texture name]		[hscale]	[vscale]
 -0c2a4_pan1         	detail/-0c2a4_pan1             	1.0			1.0
 {ladder1            	detail/{LADDER1                	1.0			1.0
-{rail1              	detail/dt_metal1               	1.0			1.0
+{rail1              	detail/{RAIL1                  	1.0			1.0
 +0~light4a          	detail/crystallized1           	1.0			1.0
 +0lab1_w7           	detail/+0lab1_w7               	1.0			1.0
 +0medkit            	detail/dt_metal1               	1.0			1.0
 +0recharge          	detail/dt_metal1               	1.0			1.0
 ~generic88          	detail/~generic88              	1.0			1.0
 babtech_bordl9      	detail/babtech_bordl9          	1.0			1.0
-basetrim01          	detail/dt_metal1               	1.0			1.0
+basetrim01          	detail/basetrim01              	1.0			1.0
 black               	detail/black                   	1.0			1.0
 c2a4x_brd2b         	detail/c2a4x_brd2b             	1.0			1.0
 c2a4x_h2e           	detail/c2a4x_h2e               	1.0			1.0
@@ -33,8 +33,8 @@ lab1_stair2b        	detail/lab1_stair2b            	1.0			1.0
 lab1_trim3          	detail/lab1_trim3              	1.0			1.0
 lab1_w8flr1b        	detail/lab1_w8flr1b            	1.0			1.0
 lab3_brd5           	detail/lab3_brd5               	1.0			1.0
-medkitedge1         	detail/dt_metal1               	1.0			1.0
-rechargeedge1       	detail/dt_metal1               	1.0			1.0
+medkitedge1         	detail/MEDKITEDGE1             	1.0			1.0
+rechargeedge1       	detail/RECHARGEEDGE1           	1.0			1.0
 sky                 	detail/SKY                     	1.0			1.0
 stripes2            	detail/stripes2                	1.0			1.0
 table               	detail/table                   	1.0			1.0

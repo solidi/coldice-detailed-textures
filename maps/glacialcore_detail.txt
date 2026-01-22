@@ -15,8 +15,8 @@ duct_flr02          	detail/duct_flr02              	1.0			1.0
 duct_vnt            	detail/duct_vnt2               	1.0			1.0
 lab1_stair2a        	detail/lab1_stair2a            	1.0			1.0
 lab3_brd4b          	detail/lab3_brd4b              	1.0			1.0
-medkitedge1         	detail/dt_metal1               	1.0			1.0
-rechargeedge1       	detail/dt_metal1               	1.0			1.0
+medkitedge1         	detail/MEDKITEDGE1             	1.0			1.0
+rechargeedge1       	detail/RECHARGEEDGE1           	1.0			1.0
 sky                 	detail/SKY                     	1.0			1.0
 stripes2            	detail/stripes2                	1.0			1.0
 

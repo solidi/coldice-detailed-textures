@@ -3,7 +3,7 @@
 // Created by GitHub Copilot, 2026
 
 // [texture name]	[detail texture name]		[hscale]	[vscale]
-{grate2a            	detail/dt_metal1               	1.0			1.0
+{grate2a            	detail/{GRATE2A                	1.0			1.0
 +0~light1           	detail/+0~light1               	1.0			1.0
 +0~light4a          	detail/crystallized1           	1.0			1.0
 babtech_ceil01      	detail/babtech_ceil01          	1.0			1.0
@@ -13,7 +13,7 @@ cardbox1            	detail/cardbox1                	1.0			1.0
 cardbox4            	detail/cardbox4                	1.0			1.0
 cardboxbot1         	detail/cardboxbot1             	1.0			1.0
 cir_crate15         	detail/cir_crate15             	1.0			1.0
-cir_crate16         	detail/crate_01                	1.0			1.0
+cir_crate16         	detail/cir_crate16             	1.0			1.0
 cir_floor04         	detail/cir_floor04             	1.0			1.0
 cir_snow02          	detail/snow2                   	1.0			1.0
 cir_wood08          	detail/cir_wood08              	1.0			1.0

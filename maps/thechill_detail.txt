@@ -1,0 +1,30 @@
+// Detail txtures for thechill
+// Detail texture project for Cold Ice Remastered
+// Created by GitHub Copilot, 2026
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+{blue               	detail/{BLUE                   	1.0			1.0
+babtech_ceil01      	detail/babtech_ceil01          	1.0			1.0
+basetrim01          	detail/dt_metal1               	1.0			1.0
+black               	detail/black                   	1.0			1.0
+c1a3floor02         	detail/c1a3floor02             	1.0			1.0
+c1a3wall03          	detail/dt_metal1               	1.0			1.0
+c1a4_c1c            	detail/c1a4_c1c                	1.0			1.0
+c1a4i_w1a           	detail/c1a4i_w1a               	1.0			1.0
+c2a1_w1             	detail/c2a4e_w1                	1.0			1.0
+c3a1_w3b            	detail/c3a1_w3b                	1.0			1.0
+c3a1_w5a            	detail/c3a1_w5a                	1.0			1.0
+c3a1_w5d            	detail/c3a1_w5d                	1.0			1.0
+c3a2_telepad        	detail/c3a2_telepad            	1.0			1.0
+cir_snow01          	detail/snow2                   	1.0			1.0
+cir_snow02          	detail/snow2                   	1.0			1.0
+cir_snow04          	detail/snow2                   	1.0			1.0
+cir_wall10          	detail/cir_wall10              	1.0			1.0
+crete2_flr01        	detail/crete2_flr01            	1.0			1.0
+crete4_stp01        	detail/crete4_stp01            	1.0			1.0
+lab1_trim3          	detail/lab1_trim3              	1.0			1.0
+lab1_trim4          	detail/lab1_trim4              	1.0			1.0
+out_wall2c          	detail/out_wall2c              	1.0			1.0
+sky                 	detail/SKY                     	1.0			1.0
+stripes5            	detail/stripes5                	1.0			1.0
+

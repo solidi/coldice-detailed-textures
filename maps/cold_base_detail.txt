@@ -1,0 +1,39 @@
+// Detail txtures for cold_base
+// Detail texture project for Cold Ice Remastered
+// Created by GitHub Copilot, 2026
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+{blue               	detail/{BLUE                   	1.0			1.0
++0~tnnl_lgt4        	detail/+0~tnnl_lgt2            	1.0			1.0
+babtech_wall01a     	detail/dt_metal1               	1.0			1.0
+basetrim01          	detail/dt_metal1               	1.0			1.0
+basewall04b         	detail/basewall04b             	1.0			1.0
+c1a1c_w2            	detail/c1a1c_w2                	1.0			1.0
+c1a3floor02         	detail/c1a3floor02             	1.0			1.0
+c1a3wall01          	detail/c1a3wall01              	1.0			1.0
+c1a3wall05          	detail/c1a3wall05              	1.0			1.0
+c1a4_c1c            	detail/c1a4_c1c                	1.0			1.0
+c1a4tnnl1           	detail/C1A4TNNL1               	1.0			1.0
+c3a1_w5d            	detail/c3a1_w5d                	1.0			1.0
+c3a2a_w1            	detail/dt_metal1               	1.0			1.0
+c3a2a_w1j           	detail/dt_metal1               	1.0			1.0
+cir_snow01          	detail/snow2                   	1.0			1.0
+cir_wall07          	detail/cir_wall07              	1.0			1.0
+cir_wall10          	detail/cir_wall10              	1.0			1.0
+con1_wall01p        	detail/con1_wall01p            	1.0			1.0
+fifties_cmp3b       	detail/FIFTIES_CMP3B           	1.0			1.0
+generic012          	detail/generic012              	1.0			1.0
+generic64b          	detail/dt_metal1               	1.0			1.0
+out_wall4b          	detail/out_wall4b              	1.0			1.0
+silo2_c1            	detail/dt_metal1               	1.0			1.0
+silo2_gad1          	detail/silo2_gad1              	1.0			1.0
+silo2_wet1          	detail/silo2_wet1              	1.0			1.0
+silo2_wet3          	detail/silo2_wet3              	1.0			1.0
+silo2_wet4          	detail/silo2_wet4              	1.0			1.0
+sky                 	detail/SKY                     	1.0			1.0
+tnnl_brd1b          	detail/tnnl_brd1b              	1.0			1.0
+tnnl_swr1           	detail/tnnl_swr1               	1.0			1.0
+tnnl_swr2           	detail/tnnl_swr1               	1.0			1.0
+xcrate10b           	detail/xcrate10b               	1.0			1.0
+xcrate11b           	detail/xcrate11b               	1.0			1.0
+

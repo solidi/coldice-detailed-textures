@@ -1,0 +1,28 @@
+// Detail txtures for comet
+// Detail texture project for Cold Ice Remastered
+// Created by GitHub Copilot, 2026
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+{grate2a            	detail/dt_metal1               	1.0			1.0
++0~light1           	detail/+0~light1               	1.0			1.0
++0~light4a          	detail/crystallized1           	1.0			1.0
+babtech_ceil01      	detail/babtech_ceil01          	1.0			1.0
+black               	detail/black                   	1.0			1.0
+c3a2_ceil           	detail/c3a2_ceil               	1.0			1.0
+cardbox1            	detail/cardbox1                	1.0			1.0
+cardbox4            	detail/cardbox4                	1.0			1.0
+cardboxbot1         	detail/cardboxbot1             	1.0			1.0
+cir_crate15         	detail/cir_crate15             	1.0			1.0
+cir_crate16         	detail/crate_01                	1.0			1.0
+cir_floor04         	detail/cir_floor04             	1.0			1.0
+cir_snow02          	detail/snow2                   	1.0			1.0
+cir_wood08          	detail/cir_wood08              	1.0			1.0
+fade2               	detail/fade2                   	1.0			1.0
+lab1_trim3          	detail/lab1_trim3              	1.0			1.0
+lab1_trim4          	detail/lab1_trim4              	1.0			1.0
+metal_bord05        	detail/METAL_BORD05            	1.0			1.0
+out_gravel          	detail/out_gravel              	1.0			1.0
+sky                 	detail/SKY                     	1.0			1.0
+subway_lights       	detail/SUBWAY_LIGHTS           	1.0			1.0
+trk_seat            	detail/trk_seat                	1.0			1.0
+

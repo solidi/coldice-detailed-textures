@@ -1,0 +1,19 @@
+// Detail txtures for latenightxmas
+// Detail texture project for Cold Ice Remastered
+// Created by GitHub Copilot, 2026
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+!waterblue          	detail/!WATERBLUE              	1.0			1.0
+{ladder1            	detail/{LADDER1                	1.0			1.0
++0~light4a          	detail/crystallized1           	1.0			1.0
++0~light6a          	detail/+0~LIGHT6A              	1.0			1.0
+black               	detail/black                   	1.0			1.0
+c1a0_wx             	detail/C1A0_WX                 	1.0			1.0
+c2a4e_w1            	detail/c2a4e_w1                	1.0			1.0
+cardbox1            	detail/cardbox1                	1.0			1.0
+fade2               	detail/fade2                   	1.0			1.0
+freezer_bx9         	detail/freezer_bx9             	1.0			1.0
+out_gravel          	detail/out_gravel              	1.0			1.0
+sky                 	detail/SKY                     	1.0			1.0
+trrm_wood2          	detail/TRRM_WOOD2              	1.0			1.0
+

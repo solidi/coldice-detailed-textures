@@ -20,3 +20,9 @@ rechargeedge1       	detail/RECHARGEEDGE1           	1.0			1.0
 sky                 	detail/SKY                     	1.0			1.0
 stripes2            	detail/stripes2                	1.0			1.0
 
+// Auto-filled high-confidence mappings
++0~fifties_lgt2         detail/+0~fifts_lght3        1.0			1.0
++0~generic86            detail/crystallized1         1.0			1.0
++a~fifties_lgt2         detail/+0~fifts_lght3        1.0			1.0
+~light3b                detail/light3b               1.0			1.0
+~light3c                detail/light3b               1.0			1.0

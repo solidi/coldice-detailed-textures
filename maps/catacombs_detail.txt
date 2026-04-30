@@ -123,6 +123,11 @@ xcrate10d           detail/xcrate10d			1.0			1.0
 ~spotred            detail/crystallized1 		1.0			1.0 
 ~spotyellow   		detail/crystallized1 		1.0			1.0
 
+// Auto-filled high-confidence mappings
+c3a1_w5a                detail/c3a1_w5a              1.0			1.0
+cir_stone03             detail/cir_rocks08           1.0			1.0
+tnnl_brd1b              detail/tnnl_brd1b            1.0			1.0
+
 // End detail texture file.
 // What are you doing here? 
 // I hope you have not modified something...

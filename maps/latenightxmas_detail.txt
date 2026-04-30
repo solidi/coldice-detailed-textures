@@ -17,3 +17,5 @@ out_gravel          	detail/out_gravel              	1.0			1.0
 sky                 	detail/SKY                     	1.0			1.0
 trrm_wood2          	detail/TRRM_WOOD2              	1.0			1.0
 
+// Auto-filled high-confidence mappings
+~light3c                detail/light3b               1.0			1.0

@@ -55,6 +55,11 @@ water4b      		detail/WATER4B 				1.0 		1.0
 wet_ceil01     		detail/WET_CEIL01 			1.0 		1.0
 {ladder1			detail/{LADDER1 			1.0 		1.0
 
+// Auto-filled high-confidence mappings
+-0out_crt2a             detail/-0out_crt2a           1.0			1.0
+cir_wall15              detail/wall_generic2         1.0			1.0
+crete4_flr01            detail/crete4_flr01          1.0			1.0
+
 // End detail texture file.
 // What are you doing here? 
 // I hope you have not modified something...

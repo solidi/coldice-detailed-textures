@@ -28,3 +28,10 @@ out_wall2c          	detail/out_wall2c              	1.0			1.0
 sky                 	detail/SKY                     	1.0			1.0
 stripes5            	detail/stripes5                	1.0			1.0
 
+// Auto-filled high-confidence mappings
+~light3b                detail/light3b               1.0			1.0
+~light5a                detail/light3b               1.0			1.0
+~spotblue               detail/crystallized1         1.0			1.0
+cir_path01              detail/wall_generic          1.0			1.0
+cir_path02              detail/wall_generic          1.0			1.0
+cir_snow05              detail/snow2                 1.0			1.0

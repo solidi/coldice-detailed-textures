@@ -351,6 +351,10 @@ xcrate11b   		detail/xcrate11b			1.0			1.0
 ~light5a            detail/light3b				1.0			1.0 
 ~spotblue   		detail/crystallized1 		1.0			1.0
 
+// Auto-filled high-confidence mappings
+c1a0_w4                 detail/C1A0_W4               1.0			1.0
+out_grnd2               detail/out_grnd2             1.0			1.0
+
 // End detail texture file.
 // What are you doing here? 
 // I hope you have not modified something...

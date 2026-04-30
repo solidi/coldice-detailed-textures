@@ -69,6 +69,10 @@ crate27        		detail/crate27				1.0			1.0
 generic011        	detail/crete2_flr02			1.0			1.0
 sky        			detail/sky					1.0			1.0
 
+// Auto-filled high-confidence mappings
+~light3b                detail/light3b               1.0			1.0
+c1a4_c1c                detail/c1a4_c1c              1.0			1.0
+
 // End detail texture file.
 // What are you doing here? 
 // I hope you have not modified something...

@@ -1,0 +1,41 @@
+// Detail txtures for suspension
+// Detail texture project for Cold Ice Remastered
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+
++0~light3a			detail/crystallized1 		1.0			1.0
++0~light5a			detail/crystallized1 		1.0			1.0
+basetrim02			detail/basetrim02			1.0			1.0
+black				detail/BLACK				1.0			1.0
+c1a0_w4				detail/C1A0_W4				1.0			1.0
+c1a4tnnl1c			detail/C1A4TNNL1			1.0			1.0
+c2a4_trim1			detail/dt_metal1			1.0			1.0
+c3a2_telepad		detail/c3a2_telepad			1.0			1.0
+ci_flake01			detail/snow2				1.0			1.0
+ci_flake02			detail/snow2				1.0			1.0
+ci_grad				detail/dt_metal1			1.0			1.0
+ci_outrck01			detail/out_rk3				1.0			1.0
+crete3_wall02		detail/crete3_wall02		1.0			1.0
+generic012			detail/generic012			1.0			1.0
+generic015h			detail/generic015h			1.0			1.0
+generic015k			detail/dt_metal1			1.0			1.0
+generic015p			detail/dt_metal1			1.0			1.0
+lab1_bluxc1			detail/dt_metal1			1.0			1.0
+lab1_gear1			detail/lab1_gear3			1.0			1.0
+lab1_gear2			detail/lab1_gear3			1.0			1.0
+lab1_gear3			detail/lab1_gear3			1.0			1.0
+lab1_w8flr1c		detail/lab1_w8flr1b			1.0			1.0
+lab10_dr1c			detail/dt_metal1			1.0			1.0
+lab3_brd5			detail/lab3_brd5			1.0			1.0
+light_b2			detail/light3b				1.0			1.0
+light_c2			detail/light3b				1.0			1.0
+light_g				detail/light3b				1.0			1.0
+sky					detail/SKY					1.0			1.0
+tankrear			detail/dt_metal1			1.0			1.0
+tnnl_w7b			detail/tnnl_w7b				1.0			1.0
+{icicle1			detail/dt_metal1			1.0			1.0
+
+// End detail texture file.
+// What are you doing here? 
+// I hope you have not modified something...
+// If you did.. I hope you knew what you're doing...

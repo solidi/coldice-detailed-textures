@@ -92,6 +92,12 @@ xcrate10d      		detail/xcrate10d			1.0			1.0
 ~light3c        	detail/light3b				1.0			1.0      
 ~light5a       		detail/light3b				1.0			1.0
 
+// Auto-filled high-confidence mappings
+c3a1_w5b                detail/c3a1_w5b              1.0			1.0
+crete4_wall01           detail/crete4_wall01         1.0			1.0
+lab1_trim3              detail/lab1_trim3            1.0			1.0
+tnnl_flr12a             detail/tnnl_flr12a           1.0			1.0
+
 // End detail texture file.
 // What are you doing here? 
 // I hope you have not modified something...

@@ -28,3 +28,25 @@ stripes2            	detail/stripes2                	1.0			1.0
 stripes4            	detail/stripes4                	1.0			1.0
 table               	detail/table                   	1.0			1.0
 
+// Auto-filled high-confidence mappings
+cir_brick13             detail/brickwall034a         1.0			1.0
+cir_brick14             detail/brickwall034a         1.0			1.0
+cir_brick15             detail/brickwall034a         1.0			1.0
+cir_crate01             detail/crate21d              1.0			1.0
+cir_crate05             detail/c3a1_crate3           1.0			1.0
+cir_crate06             detail/c3a1_crate3           1.0			1.0
+cir_crate08             detail/cir_crate04           1.0			1.0
+cir_crate10             detail/cir_crate16a          1.0			1.0
+cir_crate11             detail/cir_crate16           1.0			1.0
+cir_crate13             detail/crate02               1.0			1.0
+cir_crate14             detail/crate02               1.0			1.0
+cir_crate24             detail/crate10_stalkyard     1.0			1.0
+cir_crate25             detail/crate10_stalkyard     1.0			1.0
+cir_crate26             detail/crate10_stalkyard     1.0			1.0
+cir_floor03             detail/c1a1_flr2b            1.0			1.0
+cir_rock03              detail/cir_rocks08           1.0			1.0
+cir_wall01              detail/cir_wall09            1.0			1.0
+cir_wall04              detail/cir_wall10            1.0			1.0
+cir_wall05              detail/cir_wall10            1.0			1.0
+cir_wall06              detail/cir_wall09            1.0			1.0
+cir_wall15              detail/wall_generic2         1.0			1.0

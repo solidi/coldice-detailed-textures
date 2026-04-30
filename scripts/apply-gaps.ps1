@@ -1,6 +1,26 @@
+param(
+    [string]$detailDir = (Join-Path (Split-Path -Parent $PSScriptRoot) 'detailed-textures\maps'),
+    [string]$mapsDir   = (Join-Path (Split-Path -Parent $PSScriptRoot) 'maps')
+)
+
 $ErrorActionPreference = 'Stop'
-$detailDir = 'c:\hl-mods\workspace\detailed-textures\maps'
-$mapsDir   = 'c:\hl-mods\workspace\maps'
+
+if (-not (Test-Path -LiteralPath $detailDir -PathType Container)) {
+    throw "Detail directory does not exist: $detailDir"
+}
+
+if (-not (Test-Path -LiteralPath $mapsDir -PathType Container)) {
+    throw "Maps directory does not exist: $mapsDir"
+}
+
+$detailDir = (Resolve-Path -LiteralPath $detailDir).Path
+$mapsDir = (Resolve-Path -LiteralPath $mapsDir).Path
+function Get-DetailMappingValue($parts) {
+    $detail = $parts[1]
+    $hscale = if ($parts.Count -ge 3) { $parts[2] } else { '1.0' }
+    $vscale = if ($parts.Count -ge 4) { $parts[3] } else { '1.0' }
+    return "$detail $hscale $vscale"
+}
 
 function Parse-DetailFile($path) {
     $h = [ordered]@{}
@@ -8,7 +28,7 @@ function Parse-DetailFile($path) {
         $t = $line.Trim()
         if ($t -eq '' -or $t.StartsWith('//')) { continue }
         $parts = $t -split '\s+'
-        if ($parts.Count -ge 2) { $h[$parts[0].ToLower()] = $parts[1] }
+        if ($parts.Count -ge 2) { $h[$parts[0].ToLower()] = Get-DetailMappingValue $parts }
     }
     return $h
 }
@@ -77,7 +97,7 @@ foreach ($name in ($mapDetails.Keys | Sort-Object)) {
         # Format: tex<tabs>detail<tabs>1.0<tab>1.0   - use tabs to match style; pick width 24 for tex
         $texCol = $a.Tex.PadRight(24)
         $detCol = $a.Detail.PadRight(28)
-        "$texCol$detCol 1.0			1.0"
+        "$texCol$detCol 1.0`t`t`t1.0"
     }
 
     $path = $mapFiles[$name]
@@ -85,13 +105,23 @@ foreach ($name in ($mapDetails.Keys | Sort-Object)) {
     # Detect line ending
     $nl = if ($content -match "`r`n") { "`r`n" } else { "`n" }
 
+    $header = '// Auto-filled high-confidence mappings'
     $marker = '// End detail texture file.'
+    $insertBlock = "$header$nl" + ($newLines -join $nl) + "$nl$nl"
     if ($content.Contains($marker)) {
-        $insertBlock = "// Auto-filled high-confidence mappings$nl" + ($newLines -join $nl) + "$nl$nl"
-        $newContent = $content -replace [regex]::Escape($marker), ($insertBlock + $marker)
+        $existingBlockPattern = "(?s)" + [regex]::Escape($header) + ".*?" + [regex]::Escape("$nl$nl$marker")
+        if ([regex]::IsMatch($content, $existingBlockPattern)) {
+            $newContent = [regex]::Replace($content, $existingBlockPattern, ($insertBlock + $marker), 1)
+        } else {
+            $newContent = $content -replace [regex]::Escape($marker), ($insertBlock + $marker)
+        }
     } else {
-        # Trim trailing whitespace and append
-        $newContent = $content.TrimEnd() + $nl + $nl + "// Auto-filled high-confidence mappings$nl" + ($newLines -join $nl) + $nl
+        # Replace an existing trailing auto-filled block, otherwise trim trailing whitespace and append
+        $trailingBlockPattern = "(?s)(?:\r?\n){0,2}" + [regex]::Escape($header) + ".*$"
+        if ([regex]::IsMatch($content, $trailingBlockPattern)) {
+            $content = [regex]::Replace($content, $trailingBlockPattern, '', 1)
+        }
+        $newContent = $content.TrimEnd() + $nl + $nl + $header + $nl + ($newLines -join $nl) + $nl
     }
 
     Set-Content -LiteralPath $path -Value $newContent -NoNewline -Encoding UTF8

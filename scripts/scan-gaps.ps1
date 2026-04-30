@@ -1,7 +1,25 @@
-$ErrorActionPreference = 'Stop'
-$detailDir = 'c:\hl-mods\workspace\detailed-textures\maps'
-$mapsDir   = 'c:\hl-mods\workspace\maps'
+[CmdletBinding()]
+param(
+    [string]$DetailDir,
+    [string]$MapsDir
+)
 
+$ErrorActionPreference = 'Stop'
+
+$repoRoot = Split-Path -Parent $PSScriptRoot
+if (-not $DetailDir) { $DetailDir = Join-Path $repoRoot 'detailed-textures\maps' }
+if (-not $MapsDir)   { $MapsDir   = Join-Path $repoRoot 'maps' }
+
+if (-not (Test-Path -LiteralPath $DetailDir -PathType Container)) {
+    throw "Detail directory does not exist: $DetailDir. Pass -DetailDir explicitly or run the script from a checkout with 'detailed-textures\maps' under the repository root."
+}
+
+if (-not (Test-Path -LiteralPath $MapsDir -PathType Container)) {
+    throw "Maps directory does not exist: $MapsDir. Pass -MapsDir explicitly or run the script from a checkout with 'maps' under the repository root."
+}
+
+$detailDir = (Resolve-Path -LiteralPath $DetailDir).Path
+$mapsDir   = (Resolve-Path -LiteralPath $MapsDir).Path
 function Parse-DetailFile($path) {
     $h = [ordered]@{}
     foreach ($line in Get-Content -LiteralPath $path) {
@@ -19,12 +37,10 @@ function Get-MapTextures($mapPath) {
     $set = New-Object System.Collections.Generic.HashSet[string]
     $skip = @('null','origin','aaatrigger','contentwater','clip','sky','hint','skip','bevel')
     # Brush face line: ( x y z ) ( x y z ) ( x y z ) TEXNAME [ ... ] [ ... ] rot sx sy
-    $rx = [regex]'\)\s+\)\s+\(\s+[-\d\.eE\s]+\)\s+(\S+)\s+\['
     foreach ($line in Get-Content -LiteralPath $mapPath) {
         if ($line.StartsWith('( ')) {
             # Format: ( a b c ) ( d e f ) ( g h i ) TEX [ ...
             $idx = 0
-            $depth = 0
             $closes = 0
             for ($i = 0; $i -lt $line.Length; $i++) {
                 if ($line[$i] -eq ')') {

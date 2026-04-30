@@ -113,8 +113,9 @@ mapping files. Run from any cwd; paths inside are absolute to this workspace.
     header just before the `// End detail texture file.` footer (footer preserved).
   - Tunable: edit the three guard conditions in the script to broaden/narrow the
     scope (e.g. lower `Frequency`, allow `dt_metal1`, allow `Variants <= 2`).
-  - Idempotent in practice — already-defined textures are skipped on re-runs, but the
-    `// Auto-filled` block will be appended again, so prefer running scan first.
+  - Repeat runs skip already-defined textures, but the `// Auto-filled` block may
+    still be appended again, so prefer running scan first and reviewing changes
+    before rerunning.
 
 ### Adding a new map
 

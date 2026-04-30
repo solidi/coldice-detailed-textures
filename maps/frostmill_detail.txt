@@ -52,3 +52,26 @@ sky             	detail/SKY					1.0			1.0
 stripes2        	detail/stripes2				1.0			1.0
 tnnl_flr12a     	detail/tnnl_flr12a			1.0			1.0
 tnnl_swr1       	detail/tnnl_swr1			1.0			1.0
+
+// Auto-filled high-confidence mappings
++0~fifties_lgt2         detail/+0~fifts_lght3        1.0			1.0
++0~fifts_lght5          detail/+0~fifts_lght3        1.0			1.0
++0~light5a              detail/crystallized1         1.0			1.0
+~light3b                detail/light3b               1.0			1.0
+~light5a                detail/light3b               1.0			1.0
+~spotblue               detail/crystallized1         1.0			1.0
+cir_brick05             detail/brickwall034a         1.0			1.0
+cir_brick07             detail/crete3_wall01         1.0			1.0
+cir_brick12             detail/brickwall034a         1.0			1.0
+cir_floor03             detail/c1a1_flr2b            1.0			1.0
+cir_path01              detail/wall_generic          1.0			1.0
+cir_path02              detail/wall_generic          1.0			1.0
+cir_pavement02          detail/wall_generic          1.0			1.0
+cir_snow03              detail/snow2                 1.0			1.0
+cir_snow05              detail/snow2                 1.0			1.0
+cir_stone02             detail/cir_rocks08           1.0			1.0
+cir_stone03             detail/cir_rocks08           1.0			1.0
+cir_wall01              detail/cir_wall09            1.0			1.0
+cir_wall04              detail/cir_wall10            1.0			1.0
+cir_wall06              detail/cir_wall09            1.0			1.0
+cir_wall15              detail/wall_generic2         1.0			1.0

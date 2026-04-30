@@ -37,3 +37,15 @@ tnnl_swr2           	detail/tnnl_swr1               	1.0			1.0
 xcrate10b           	detail/xcrate10b               	1.0			1.0
 xcrate11b           	detail/xcrate11b               	1.0			1.0
 
+// Auto-filled high-confidence mappings
+!cir_water01            detail/!WATERBLUE            1.0			1.0
++0~light5a              detail/crystallized1         1.0			1.0
+~light3b                detail/light3b               1.0			1.0
+cir_brick15             detail/brickwall034a         1.0			1.0
+cir_brick17             detail/wall                  1.0			1.0
+cir_outdoor01           detail/c2a2_sd               1.0			1.0
+cir_path01              detail/wall_generic          1.0			1.0
+cir_rocks04             detail/cir_rocks08           1.0			1.0
+cir_rocks09             detail/cir_rocks08           1.0			1.0
+cir_wall05              detail/cir_wall10            1.0			1.0
+cir_wall15              detail/wall_generic2         1.0			1.0

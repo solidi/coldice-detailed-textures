@@ -144,6 +144,9 @@ xcrate9d            detail/xcrate9d				1.0			1.0
 ~light5a   			detail/light3b				1.0			1.0
 ~spotred			detail/crystallized1 		1.0			1.0   
 
+// Auto-filled high-confidence mappings
+crete3_ceil02a          detail/crete3_ceil02a        1.0			1.0
+
 // End detail texture file.
 // What are you doing here? 
 // I hope you have not modified something...

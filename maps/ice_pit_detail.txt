@@ -94,6 +94,10 @@ tnnl_w5f			detail/tnnl_w5f				1.0			1.0
 ~light3b          	detail/light3b 				1.0			1.0
 ~light5a			detail/light3b 				1.0			1.0
 
+// Auto-filled high-confidence mappings
+c3a2_telepad            detail/c3a2_telepad          1.0			1.0
+crete2_flr01            detail/crete2_flr01          1.0			1.0
+
 // End detail texture file.
 // What are you doing here? 
 // I hope you have not modified something...

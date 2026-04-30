@@ -20,3 +20,21 @@ generic039          	detail/generic039              	1.0			1.0
 out_pave2           	detail/out_pave2               	1.0			1.0
 sky                 	detail/SKY                     	1.0			1.0
 
+// Auto-filled high-confidence mappings
+~spotblue               detail/crystallized1         1.0			1.0
+cir_brick12             detail/brickwall034a         1.0			1.0
+cir_brick15             detail/brickwall034a         1.0			1.0
+cir_brick17             detail/wall                  1.0			1.0
+cir_floor03             detail/c1a1_flr2b            1.0			1.0
+cir_mount03             detail/cir_rock16            1.0			1.0
+cir_path01              detail/wall_generic          1.0			1.0
+cir_path02              detail/wall_generic          1.0			1.0
+cir_pavement02          detail/wall_generic          1.0			1.0
+cir_rocks01             detail/cir_rocks08           1.0			1.0
+cir_rocks04             detail/cir_rocks08           1.0			1.0
+cir_rocks09             detail/cir_rocks08           1.0			1.0
+cir_stone02             detail/cir_rocks08           1.0			1.0
+cir_stone03             detail/cir_rocks08           1.0			1.0
+cir_wall01              detail/cir_wall09            1.0			1.0
+cir_wall06              detail/cir_wall09            1.0			1.0
+cir_wall15              detail/wall_generic2         1.0			1.0

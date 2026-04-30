@@ -85,6 +85,12 @@ xcrate10c			detail/xcrate10c			1.0			1.0
 {ladder2			detail/dt_metal1 			1.0			1.0	         
 {ladder3a			detail/dt_metal1 			1.0			1.0	
 
+// Auto-filled high-confidence mappings
+c1a4i_w1c               detail/C1A4I_W1C             1.0			1.0
+crate09                 detail/crate09               1.0			1.0
+lab1_stair2b            detail/lab1_stair2b          1.0			1.0
+tnnl_flr1a              detail/tnnl_flr1a            1.0			1.0
+
 // End detail texture file.
 // What are you doing here? 
 // I hope you have not modified something...

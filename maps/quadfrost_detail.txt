@@ -58,3 +58,18 @@ stripes2            	detail/stripes2                	1.0			1.0
 stripes5            	detail/stripes5                	1.0			1.0
 tnnl_flr1a          	detail/tnnl_flr1a              	1.0			1.0
 
+// Auto-filled high-confidence mappings
+!cir_water01            detail/!WATERBLUE            1.0			1.0
++0~c2a4_cmp1            detail/+0~C2A4_CMP1          1.0			1.0
++0~fifties_lgt2         detail/+0~fifts_lght3        1.0			1.0
++0~generic86b           detail/crystallized1         1.0			1.0
++0~light5a              detail/crystallized1         1.0			1.0
++0button4               detail/+0button4             1.0			1.0
++abutton1               detail/button1               1.0			1.0
++abutton2               detail/button1               1.0			1.0
+cir_ice01               detail/snow2                 1.0			1.0
+cir_path01              detail/wall_generic          1.0			1.0
+cir_snow03              detail/snow2                 1.0			1.0
+cir_snow05              detail/snow2                 1.0			1.0
+cir_wall15              detail/wall_generic2         1.0			1.0
+generic_111c            detail/generic_111c          1.0			1.0

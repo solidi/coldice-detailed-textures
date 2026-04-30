@@ -8,3 +8,7 @@ lab1_stair1b        	detail/lab1_stair1b            	1.0			1.0
 lab1_trim3          	detail/lab1_trim3              	1.0			1.0
 sky                 	detail/SKY                     	1.0			1.0
 
+// Auto-filled high-confidence mappings
+cir_ice01               detail/snow2                 1.0			1.0
+cir_rocks09             detail/cir_rocks08           1.0			1.0
+subway_lights           detail/SUBWAY_LIGHTS         1.0			1.0

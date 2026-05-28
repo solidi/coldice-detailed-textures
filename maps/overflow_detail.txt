@@ -55,7 +55,7 @@ cir_metal05				detail/dt_metal1 			1.0			1.0
 cir_metal06				detail/dt_metal1 			1.0			1.0
 cir_metal07				detail/dt_metal1 			1.0			1.0
 cir_metal08				detail/dt_metal1 			1.0			1.0
-cir_rock16				detail/cir_rocks03			1.0 		1.0
+cir_rock16				detail/cir_rocks08			1.0 		1.0
 cir_rocks01				detail/cir_rocks08			1.0			0.5
 cir_rocks04				detail/cir_rocks08			1.0			1.0
 cir_snow01				detail/snow2  				1.0 		1.0 

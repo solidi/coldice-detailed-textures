@@ -29,8 +29,8 @@ cir_earth01			detail/cir_earth01  		1.0 		1.0
 cir_floor04			detail/cir_floor04			1.0 		1.0
 cir_rock11			detail/stone3				1.0 		1.0  
 cir_rock15			detail/stone3				1.0 		1.0		    
-cir_rock16			detail/cir_rocks03			1.0 		1.0
-cir_rocks03			detail/stone3   			1.0 		1.0 
+cir_rock16			detail/cir_rocks08			1.0 		1.0
+cir_rocks03			detail/cir_rocks08			1.0 		1.0 
 cir_rocks08			detail/cir_rocks08  		1.0 		1.0
 cir_snow01			detail/snow2  				1.0 		1.0 
 cir_snow02			detail/snow2 				1.0 		1.0  

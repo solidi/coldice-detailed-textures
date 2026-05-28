@@ -73,6 +73,8 @@ strong precedent. Common patterns:
 - Brick variants → `detail/brickwall034a`, `detail/wall`, `detail/stone`.
 - Rock/stone (`cir_rock*`, `cir_rocks*`, `cir_stone*`) → `detail/cir_rocks08`,
   `detail/stone3`, `detail/rockout`.
+- `detail/cir_rocks03` does not exist in `gfx/detail/`; any legacy references
+  should be normalized to `detail/cir_rocks08`.
 - Wood (`cir_wood*`) → `detail/cir_wood07a`, `detail/cir_wood12a`.
 - Metal panels, doors, signs, generic dark surfaces → `detail/dt_metal1`. This is the
   catch-all fallback — useful but high-noise when applied automatically.
@@ -142,6 +144,27 @@ Get-Content $detail | ForEach-Object {
     if ($parts.Count -lt 2) { return }
     $tga = Join-Path $gfx (($parts[1] -replace '^detail/','') + '.tga')
     if (-not (Test-Path -LiteralPath $tga)) { "MISSING: $($parts[0]) -> $($parts[1])" }
+}
+```
+
+Full-project audit (all `*_detail.txt` files):
+
+```powershell
+$root = 'c:\hl-mods\workspace\detailed-textures'
+$gfx  = Join-Path $root 'gfx\detail'
+Get-ChildItem (Join-Path $root 'maps') -Filter '*_detail.txt' | ForEach-Object {
+  $mapFile = $_.FullName
+  Get-Content $mapFile | ForEach-Object {
+    $t = $_.Trim()
+    if ($t -eq '' -or $t.StartsWith('//')) { return }
+    $parts = $t -split '\s+'
+    if ($parts.Count -lt 2) { return }
+    $name = $parts[1] -replace '^detail/',''
+    $tga  = Join-Path $gfx ($name + '.tga')
+    if (-not (Test-Path -LiteralPath $tga)) {
+      "MISSING: $mapFile :: $($parts[0]) -> $($parts[1])"
+    }
+  }
 }
 ```
 

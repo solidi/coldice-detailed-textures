@@ -73,7 +73,7 @@ out_pave2         	detail/out_pave2 			1.0			1.0
 silo2_wet1			detail/silo2_wet1			1.0			1.0
 silo2_wet3        	detail/silo2_wet3			1.0			1.0
 silo2_wet4        	detail/silo2_wet4			1.0			1.0
-silo2_wet4d       	silo2_wet4d					1.0			1.0
+silo2_wet4d       	detail/silo2_wet4d			1.0			1.0
 silo2_wet6        	detail/silo2_wet6			1.0			1.0
 silo2_wetdr			detail/silo2_wetdr 			1.0			1.0
 sky               	detail/SKY 					1.0 		1.0

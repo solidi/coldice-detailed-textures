@@ -101,7 +101,7 @@ out_w8dr1           detail/out_w8dr1			1.0			1.0
 red                 detail/crystallized1 		1.0			1.0  
 scrollwater1        detail/!WATERBLUE 			1.0			1.0 
 signc1a1_4          detail/dt_metal1 			1.0			1.0 
-silo2_wet4d   		silo2_wet4d					1.0			1.0
+silo2_wet4d   		detail/silo2_wet4d			1.0			1.0
 sky            		detail/SKY 					1.0 		1.0                  
 steel				detail/dt_metal1 			1.0			1.0	                 
 tnnl_c1             detail/tnnl_c1				1.0			1.0  

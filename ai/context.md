@@ -176,6 +176,10 @@ Get-ChildItem (Join-Path $root 'maps') -Filter '*_detail.txt' | ForEach-Object {
 - Texture names in `.map` files appear in the case the editor wrote (often UPPER);
   the detail-file convention is lower. The scanner lower-cases both sides for
   comparison, so casing differences won't cause false gaps.
+- Legacy mappings may omit the required `detail/` prefix (for example
+  `silo2_wet4d  silo2_wet4d`), which causes the engine lookup to fail even when the
+  TGA exists (`gfx/detail/silo2_wet4d.tga`). Normalize these to
+  `silo2_wet4d  detail/silo2_wet4d`.
 - Some mappings are intentionally divergent between maps (e.g. `{icicle1` is `snow2`
   in some maps and `dt_metal1` in others) for stylistic reasons. The "Variants > 1"
   filter in `apply-gaps.ps1` skips these so author intent isn't overwritten.

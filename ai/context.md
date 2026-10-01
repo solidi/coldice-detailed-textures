@@ -168,6 +168,30 @@ Get-ChildItem (Join-Path $root 'maps') -Filter '*_detail.txt' | ForEach-Object {
 }
 ```
 
+### 2026-10-01 integrity sweep (applied)
+
+One full pass was run over `maps/*_detail.txt` to verify every `detail/<name>` has
+a matching `gfx/detail/<name>.tga`. The following broken references were found and
+fixed:
+
+- `+abutton4 -> detail/button4` (missing `button4.tga`) in:
+  - `doublefrost_detail.txt`
+  - `focus_detail.txt`
+  - `ice_pit_detail.txt`
+  - normalized to `detail/+0button4` (existing `+0button4.tga`, already used by
+    `+0button4` and by `frostfire_detail.txt`).
+- `generic106b -> detail/generic106b` (missing `generic106b.tga`) in:
+  - `frozenwarehouse_detail.txt`
+  - `training_detail.txt`
+  - normalized to `detail/generic106a` (existing sibling detail texture).
+- `crate11 -> detail/crate11_stalkyard` (missing `crate11_stalkyard.tga`) in:
+  - `training_detail.txt`
+  - normalized to `detail/crate10_stalkyard` (existing stalkyard crate family
+    texture used in the same file).
+
+Post-fix audit result: no unresolved detail mappings remain in
+`workspace/detailed-textures/maps/*_detail.txt`.
+
 ## Known gotchas
 
 - The `.map` parser in `scan-gaps.ps1` keys off lines starting with `( ` and counts

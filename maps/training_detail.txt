@@ -41,7 +41,7 @@ crate09             detail/crate09				1.0			1.0
 crate09b            detail/crate09b				1.0			1.0  
 crate09c            detail/crate09c 			1.0			1.0  
 crate10             detail/crate10_stalkyard	1.0			1.0  
-crate11    			detail/crate11_stalkyard	1.0			1.0
+crate11    			detail/crate10_stalkyard	1.0			1.0
 crate13             detail/crate13_stalkyard  	1.0			1.0
 crete4_flr01      	detail/crete4_flr01			1.0			1.0   
 drkmtlt_bord08		detail/dt_metal1 			1.0			1.0          
@@ -66,7 +66,7 @@ freezer_bx9 		detail/freezer_bx9			1.0			1.0
 generic028          detail/dt_metal1			1.0			1.0    
 generic106          detail/dt_metal1			1.0			1.0    
 generic106a         detail/generic106a 			1.0			1.0
-generic106b         detail/generic106b  		1.0			1.0
+generic106b         detail/generic106a 			1.0			1.0
 generic108a    		detail/dt_metal1  			1.0			1.0
 generic71           detail/dt_metal1  			1.0			1.0
 generic89a          detail/generic89a  			1.0			1.0 

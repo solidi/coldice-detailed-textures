@@ -106,7 +106,7 @@ fiftsfile2b			detail/dt_metal1 			1.0			1.0
 generic105c			detail/dt_metal1 			1.0			1.0 
 generic106			detail/dt_metal1			1.0			1.0   
 generic106a			detail/generic106a 			1.0			1.0
-generic106b			detail/generic106b  		1.0			1.0
+generic106b			detail/generic106a 			1.0			1.0
 generic_111c		detail/generic_111c 		1.0			1.0
 lab1_cab2			detail/dt_metal1 			1.0			1.0
 lab1_comp10f		detail/+0lab1_comp10e		1.0			1.0

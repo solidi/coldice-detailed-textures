@@ -19,9 +19,14 @@ to overlay TGA files in `gfx/detail/`, plus a horizontal and vertical scale.
   map is started with detail textures enabled.
 - `gfx/detail/*.tga` — the actual detail overlay images. Filenames here are referenced
   (without extension) from the mapping files. Lookups are case-sensitive on some
-  filesystems but conventionally written in mixed/lower case.
-- `maps/<mapname>/<mapname>.map` — source J.A.C.K./Hammer map. Texture names appear as
-  the 4th token after the three `( x y z )` plane-point triples on each brush face line.
+  filesystems (Linux servers/clients), so write the target in the exact on-disk casing
+  (`detail/BLACK`, `detail/SKY`, `detail/METAL_BORD05`). Older files often don't.
+- Map sources are **not** under `detailed-textures/`. Paths are relative to `workspace/`:
+  - core maps: `maps/<mapname>/<mapname>.map`
+  - add-on maps: `add-ons/<mapname>/maps/<mapname>/<mapname>.map`, with the map's own
+    WAD sources as BMPs in `add-ons/<mapname>/wads/<mapname>/*.bmp`.
+  Texture names appear as the 4th token after the three `( x y z )` plane-point triples
+  on each brush face line.
 
 ## `_detail.txt` format
 
@@ -81,10 +86,56 @@ strong precedent. Common patterns:
 - Water/liquids (`!water*`, `!cir_water01`, `scrollwater*`) → `detail/!WATERBLUE`.
 - Sky → `detail/SKY` (or omit).
 
+### Named detail TGAs are layout-specific — check before reusing
+
+Most `gfx/detail/<name>.tga` files named after a base texture are a hi-res grayscale
+relief of **that exact image**: vents, seams, rivets and panel edges are baked in at
+fixed positions (e.g. `c3a2b_reac2c` has a louvred vent top-centre, `c1a0_labw4` a grille
+strip along the top, `fifties_case` a specific panel/vent arrangement). Putting one on
+a sibling texture with a different layout ghosts those features in the wrong place.
+
+- Reuse a named detail on another texture only when the two share layout: tiling
+  variants (`-1…-9` → its `-0`/base detail), animation frames (`+a…+j`, `+1…+9` →
+  the `+0` detail), colour-only variants (`c2a3_gar4` → `c2a3_gar3`), or a detail that
+  is plain enough to have no features to misplace (`c1a4_silo2b`, `tnnl_flr4`).
+- Otherwise use a **tileable material** instead, even when a same-family name exists.
+  A family-name match (`c3a2a_w1k` vs `c3a2a_w1`, `xcrate12b` vs `xcrate11b`) is not
+  evidence of a shared layout.
+- Precedent frequency measures habit, not fit. Many maps map `+0recharge` →
+  `dt_metal1` (13×) although an exact `+0recharge.tga` HEV relief exists; some low-count
+  sibling mappings (e.g. `crete2_flr03a` → `crete2_flr03ac`: mesh grid vs diamond plate)
+  are visual mismatches. Prefer the exact TGA, then a verified same-layout sibling,
+  then a material.
+
+Vetted tileable materials (what each actually looks like):
+
+| Detail | Look | Good for |
+| --- | --- | --- |
+| `dt_metal1` | scratched/veined grey metal | painted metal panels, doors, signs, crates, machinery |
+| `METAL_BORD05` | vertical brushed-metal streaks | vertically grained metal (`generic029`, `generic031`) |
+| `wall_generic`, `wall_generic2` | smooth plaster/concrete | painted walls (`c1a1w1*`, `c1a1_w1`), paths |
+| `crete4_flr01`, `crete2_flr01` | plain concrete | seamless concrete floors |
+| `stone3` | fine grain, 128px | subtle rough surfaces |
+| `rockout`, `cir_rocks08` | organic / rocky noise | rock, dirt, Xen flesh (`c4a1a_swmpwl`, `c2a5mound*`) |
+| `light3b` | two horizontal glowing bars | twin-bar lights (`~light3e`, `~light5f`) |
+| `crystallized1` | hex cells | animated/other lights |
+| `snowsphinc` | centred Xen orifice | `c4a1a_sphinc*` (same layout) |
+| `!WATERBLUE` | blue caustics (coloured, 32bpp) | liquids; it tints, so expect a blue shift on non-blue fluids |
+
+### Textures the `.map` does not list
+
+The engine swaps in textures at runtime that never appear on a brush face:
+animation frames (`+a…`, `+1…+9` alongside a `+0…` face) and random tiling variants
+(`-1…-9` alongside a `-0…` face). Each needs its own line or those frames/tiles render
+without detail. Enumerate them from the map's WAD (for add-ons, the BMPs in
+`add-ons/<mapname>/wads/<mapname>/`; otherwise inspect the WAD named in the map's
+`"wad"` key) rather than from the `.map`.
+
 ## Build / runtime pipeline
 
-- `Build-Textures-Pack.ps1` and `Copy-To-Redist.ps1` (at repo root) bundle TGAs and
-  the per-map `*_detail.txt` files into the redist drop the mod ships.
+- `Build-Textures-Pack.ps1` and `Copy-To-Redist.ps1` (at the `detailed-textures/` root)
+  bundle TGAs and every `maps/*_detail.txt` (core and add-on maps alike) into the
+  redist drop the mod ships.
 - The `powershell/` folder holds project-specific helpers used by those builders.
 - The engine reads `<mapname>_detail.txt` on map load when `r_detailtextures 1`. The
   console var must be set before or at map start; mid-map changes do not always take.
@@ -92,13 +143,27 @@ strong precedent. Common patterns:
 ## AI/automation tooling — `scripts/`
 
 Standalone PowerShell utilities authored to bulk-analyze and bulk-edit the detail
-mapping files. Run from any cwd; paths inside are absolute to this workspace.
+mapping files.
+
+**Always pass both paths explicitly.** The built-in defaults resolve relative to the
+`detailed-textures/` folder and point at a non-existent
+`detailed-textures\detailed-textures\maps`, so a bare run throws. Each run only scans
+maps found under `-MapsDir`, so core and add-on maps need separate runs:
+
+```powershell
+cd c:\hl-mods\workspace\detailed-textures
+.\scripts\scan-gaps.ps1 -DetailDir .\maps -MapsDir ..\maps                      # core maps
+.\scripts\scan-gaps.ps1 -DetailDir .\maps -MapsDir ..\add-ons\frost_party\maps  # one add-on
+```
 
 - [scripts/scan-gaps.ps1](../scripts/scan-gaps.ps1)
-  - For each `<mapname>_detail.txt`, parses the corresponding `maps/<mapname>/<mapname>.map`,
+  - For each `<mapname>_detail.txt`, parses `<MapsDir>/<mapname>/<mapname>.map`,
     extracts every brush-face texture, and reports textures used by the map but not
     yet defined in its detail file — *if and only if* that same texture has a known
     mapping in at least one other detail file in the project.
+  - Blind spots: it only sees brush faces (no WAD-only `+a`/`-1` frames), skips `sky`,
+    and only suggests textures some other map already maps. "0 gaps" means "nothing
+    the project already knows is missing", not "complete".
   - Output columns: `Map`, `Texture`, `Detail` (most common existing mapping),
     `Frequency` (how many other maps use that exact mapping), `Variants` (how many
     distinct detail targets the texture is mapped to across the project; `1` =
@@ -121,13 +186,33 @@ mapping files. Run from any cwd; paths inside are absolute to this workspace.
 
 ### Adding a new map
 
-1. Add `maps/<mapname>/<mapname>.map` (and the BSP build) to the workspace.
-2. Run `scripts/scan-gaps.ps1` and review the new map's gap rows for inspiration.
-3. Hand-author `maps/<mapname>_detail.txt` using the format above, leaning on the
-   "Mapping authoring patterns" section for choice of `detail/<X>`.
-4. Verify every chosen `detail/<X>` exists as `gfx/detail/<X>.tga`.
-5. Optionally re-run `scripts/apply-gaps.ps1` to fill any unanimous, high-frequency
-   gaps the hand-authored file missed.
+1. Locate the `.map` (core: `workspace/maps/<m>/`, add-on: `workspace/add-ons/<m>/maps/<m>/`)
+   and list its brush-face textures plus any WAD-only frames/tiling variants.
+2. For each texture, gather every existing project mapping (`scan-gaps.ps1` only shows
+   gaps for maps that already have a detail file, so for a brand-new map tally
+   `maps/*_detail.txt` directly) and check whether an exact-name TGA exists.
+3. Decide per texture: exact TGA → verified same-layout sibling → tileable material
+   (see "Named detail TGAs are layout-specific"). Look at the images when unsure (below).
+4. Hand-author `maps/<mapname>_detail.txt` in the format above, grouped by confidence
+   with the standard footer. Skip only tool textures (`null`, `clip`, `origin`,
+   `aaatrigger`, …).
+5. Verify every `detail/<X>` exists as `gfx/detail/<X>.tga` with matching case, there
+   are no duplicate keys, and every map + WAD texture is covered.
+6. Run `scan-gaps.ps1` against the map's folder; expect `Total gaps: 0`. Avoid
+   `apply-gaps.ps1` on a hand-authored file — it trusts precedent over layout.
+
+Worked example: `frost_party_detail.txt` (add-on, 146 entries, every texture in
+`frost_party.map` plus its WAD's `+a`/`-1…-3` variants).
+
+### Previewing textures
+
+Viewing images beats guessing from names. Base textures for add-ons are plain BMPs;
+`gfx/detail` TGAs are type 2 (raw) or type 10 (RLE), 24/32-bpp, which
+`System.Drawing` cannot open and Python/PIL is not installed. A ~15-line C# TGA
+decoder loaded via `Add-Type -ReferencedAssemblies System.Drawing.Common,System.Drawing.Primitives`
+(header bytes 12–17 = width, height, bpp, descriptor; bit 5 of the descriptor = top-down;
+RLE packets: high bit = run) is enough to render base/detail pairs side by side into a
+PNG contact sheet for review.
 
 ### Validating that detail TGAs exist
 

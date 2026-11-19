@@ -1,0 +1,171 @@
+// Detail textures for frost_party
+// Detail texture project for Cold Ice Remastered
+// Created by GitHub Copilot, 2026
+//
+// Sources: workspace/add-ons/frost_party/maps/frost_party/frost_party.map (brush faces)
+// and workspace/add-ons/frost_party/wads/frost_party/*.bmp (animation frames and
+// random-tiling variants the engine swaps in at runtime but the .map never names).
+// Named detail TGAs are layout-specific reliefs of their own base texture, so they are
+// only reused on siblings that share the same layout; everything else gets a tileable
+// material (dt_metal1, wall_generic, crete4_flr01, rockout, METAL_BORD05).
+
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+
+// Exact-name detail textures
+-0out_crt2a         	detail/-0out_crt2a             	1.0			1.0
+-1out_crt2a         	detail/-0out_crt2a             	1.0			1.0
+-2out_crt2a         	detail/-0out_crt2a             	1.0			1.0
+-3out_crt2a         	detail/-0out_crt2a             	1.0			1.0
+-0tnnl_w13a         	detail/tnnl_w13a               	1.0			1.0
+-1tnnl_w13a         	detail/tnnl_w13a               	1.0			1.0
+-2tnnl_w13a         	detail/tnnl_w13a               	1.0			1.0
+{ladder1            	detail/{LADDER1                	1.0			1.0
++0~tnnl_lgt4        	detail/+0~tnnl_lgt4            	1.0			1.0
++a~tnnl_lgt4        	detail/+0~tnnl_lgt4            	1.0			1.0
++0recharge          	detail/+0recharge              	1.0			1.0
++arecharge          	detail/+0recharge              	1.0			1.0
+barreltop           	detail/barreltop               	1.0			1.0
+black               	detail/BLACK                   	1.0			1.0
+c1a1_dr3b           	detail/c1a1_dr3b               	1.0			1.0
+c1a1_flr1           	detail/c1a1_flr1               	1.0			1.0
+c1a4_c1c            	detail/c1a4_c1c                	1.0			1.0
+c1a4_silo2b         	detail/c1a4_silo2b             	1.0			1.0
+c1a4b_w1            	detail/c1a4b_w1                	1.0			1.0
+c1a4b_w3            	detail/c1a4b_w3                	1.0			1.0
+c1a4i_w1a           	detail/c1a4i_w1a               	1.0			1.0
+c1a4i_w1b           	detail/c1a4i_w1b               	1.0			1.0
+c1a4tnnl1           	detail/c1a4tnnl1               	1.0			1.0
+c2a3_gar3           	detail/c2a3_gar3               	1.0			1.0
+c3a1_w2a            	detail/c3a1_w2a                	1.0			1.0
+c3a1_w5a            	detail/c3a1_w5a                	1.0			1.0
+c3a1_w5d            	detail/c3a1_w5d                	1.0			1.0
+c3a2b_reac2c        	detail/c3a2b_reac2c            	1.0			1.0
+con1_wall01p        	detail/con1_wall01p            	1.0			1.0
+crete4_flr02        	detail/crete4_flr02            	1.0			1.0
+fifties_cmp3b       	detail/fifties_cmp3b           	1.0			1.0
+generic015n         	detail/generic015n             	1.0			1.0
+generic95c          	detail/generic95c              	1.0			1.0
+lab1_trim3          	detail/lab1_trim3              	1.0			1.0
+out_pav3            	detail/out_pav3                	1.0			1.0
+out_wall3b          	detail/out_wall3b              	1.0			1.0
+rechargeedge1       	detail/RECHARGEEDGE1           	1.0			1.0
+silo2_p2            	detail/silo2_p2                	1.0			1.0
+silo2_w2b           	detail/silo2_w2b               	1.0			1.0
+subway_lights       	detail/subway_lights           	1.0			1.0
+tnnl_flr1a          	detail/tnnl_flr1a              	1.0			1.0
+tnnl_lgtbrd2        	detail/tnnl_lgtbrd2            	1.0			1.0
+tnnl_w12a           	detail/tnnl_w12a               	1.0			1.0
+xcrate11b           	detail/xcrate11b               	1.0			1.0
+sky                 	detail/SKY                     	1.0			1.0
+
+// Same-layout siblings (base and detail share structure)
+c1a4_silo1          	detail/c1a4_silo2b             	1.0			1.0
+c1a4_silo3          	detail/c1a4_silo2b             	1.0			1.0
+c1a4tnnl1c2         	detail/c1a4tnnl1               	1.0			1.0
+c2a3_gar4           	detail/c2a3_gar3               	1.0			1.0
+c4a1a_sphinc1       	detail/snowsphinc              	1.0			1.0
+c4a1a_sphinc1b      	detail/snowsphinc              	1.0			1.0
+crete3_ceil03c      	detail/crete3_ceil01           	1.0			1.0
+duct_wall03         	detail/duct_wall02             	1.0			1.0
+fifties_cmp1a       	detail/fifties_cmp3b           	1.0			1.0
+fifties_cmp2a2      	detail/fifties_cmp3b           	1.0			1.0
+fifties_cmp2b       	detail/fifties_cmp3b           	1.0			1.0
+fifties_cmp3a       	detail/fifties_cmp3b           	1.0			1.0
+fifties_cmp3a2      	detail/fifties_cmp3b           	1.0			1.0
+generic015v3        	detail/generic015n             	1.0			1.0
+out_wall3c          	detail/out_wall3b              	1.0			1.0
+out_wall3d          	detail/out_wall3b              	1.0			1.0
+silo2_w2            	detail/silo2_w2b               	1.0			1.0
+tnnl_flr4b          	detail/tnnl_flr4               	1.0			1.0
+tnnl_flr4c          	detail/tnnl_flr4               	1.0			1.0
+
+// Lights and liquids
++0~generic86        	detail/crystallized1           	1.0			1.0
++a~generic86        	detail/crystallized1           	1.0			1.0
+~light3e            	detail/light3b                 	1.0			1.0
+~light5f            	detail/light3b                 	1.0			1.0
+!fluid3             	detail/!WATERBLUE              	1.0			1.0
+
+// Generic materials
+c1a1_w1             	detail/wall_generic            	1.0			1.0
+c1a1w1c             	detail/wall_generic            	1.0			1.0
+c1a1w1j             	detail/wall_generic            	1.0			1.0
+c1a1w1k             	detail/wall_generic            	1.0			1.0
+c1a1w1m             	detail/wall_generic            	1.0			1.0
+c1a1_flr2c          	detail/crete4_flr01            	1.0			1.0
+tnnl_flr5b          	detail/crete4_flr01            	1.0			1.0
+c4a1a_swmpwl        	detail/rockout                 	1.0			1.0
+c2a5mound           	detail/rockout                 	1.0			1.0
+c2a5mound2          	detail/rockout                 	1.0			1.0
+xeno_6b             	detail/rockout                 	1.0			1.0
+generic029          	detail/METAL_BORD05            	1.0			1.0
+generic031          	detail/METAL_BORD05            	1.0			1.0
+-0fifties_case      	detail/dt_metal1               	1.0			1.0
+-1fifties_case      	detail/dt_metal1               	1.0			1.0
+-2fifties_case      	detail/dt_metal1               	1.0			1.0
+-0fifties_case2     	detail/dt_metal1               	1.0			1.0
+-1fifties_case2     	detail/dt_metal1               	1.0			1.0
+-2fifties_case2     	detail/dt_metal1               	1.0			1.0
+{grate3a            	detail/dt_metal1               	1.0			1.0
+{grate4a            	detail/dt_metal1               	1.0			1.0
+{gratestep2         	detail/dt_metal1               	1.0			1.0
+{rail1c             	detail/dt_metal1               	1.0			1.0
+air_c1              	detail/dt_metal1               	1.0			1.0
+babtech_sildr2      	detail/dt_metal1               	1.0			1.0
+barrel3             	detail/dt_metal1               	1.0			1.0
+c1a0_labw2          	detail/dt_metal1               	1.0			1.0
+c1a0_labw5          	detail/dt_metal1               	1.0			1.0
+c1a0_labw6          	detail/dt_metal1               	1.0			1.0
+c1a0_labw7b         	detail/dt_metal1               	1.0			1.0
+c1a0_labw7c         	detail/dt_metal1               	1.0			1.0
+c1a0_labw8          	detail/dt_metal1               	1.0			1.0
+c1a0_w1d3           	detail/dt_metal1               	1.0			1.0
+c1a1_trim2          	detail/dt_metal1               	1.0			1.0
+c1a1_window         	detail/dt_metal1               	1.0			1.0
+c1a2_c1             	detail/dt_metal1               	1.0			1.0
+c1a4_fuel3          	detail/dt_metal1               	1.0			1.0
+c2a3_door           	detail/dt_metal1               	1.0			1.0
+c2a4_gad2           	detail/dt_metal1               	1.0			1.0
+c3a2a_w1k           	detail/dt_metal1               	1.0			1.0
+c3a2a_w1l           	detail/dt_metal1               	1.0			1.0
+c3a2a_w1m           	detail/dt_metal1               	1.0			1.0
+c3a2b_reac          	detail/dt_metal1               	1.0			1.0
+c3a2b_reac1         	detail/dt_metal1               	1.0			1.0
+c3a2b_reac1c        	detail/dt_metal1               	1.0			1.0
+c3a2b_reac2e4       	detail/dt_metal1               	1.0			1.0
+c3a2b_reac5         	detail/dt_metal1               	1.0			1.0
+c3a2sign17          	detail/dt_metal1               	1.0			1.0
+c3a2sign45          	detail/dt_metal1               	1.0			1.0
+c3a2sign46          	detail/dt_metal1               	1.0			1.0
+ca1x_w1             	detail/dt_metal1               	1.0			1.0
+crete2_flr03a       	detail/dt_metal1               	1.0			1.0
+crete4b1            	detail/dt_metal1               	1.0			1.0
+fifties_brd10b      	detail/dt_metal1               	1.0			1.0
+generic115          	detail/dt_metal1               	1.0			1.0
+generic119          	detail/dt_metal1               	1.0			1.0
+generic88a          	detail/dt_metal1               	1.0			1.0
+generic88b          	detail/dt_metal1               	1.0			1.0
+lab1_c4d2           	detail/dt_metal1               	1.0			1.0
+lab1_cab2           	detail/dt_metal1               	1.0			1.0
+lab1_panel1         	detail/dt_metal1               	1.0			1.0
+lab1_panel1d        	detail/dt_metal1               	1.0			1.0
+lab1_panelh         	detail/dt_metal1               	1.0			1.0
+lab1_slot1          	detail/dt_metal1               	1.0			1.0
+lab1_slot4b         	detail/dt_metal1               	1.0			1.0
+lab1_slot6b         	detail/dt_metal1               	1.0			1.0
+silo2_gad4          	detail/dt_metal1               	1.0			1.0
+tnnl_w4a            	detail/dt_metal1               	1.0			1.0
+trrm_pan1           	detail/dt_metal1               	1.0			1.0
+trrm_pan2           	detail/dt_metal1               	1.0			1.0
+trrm_pan4           	detail/dt_metal1               	1.0			1.0
+trrm_pan5           	detail/dt_metal1               	1.0			1.0
+trrm_pan6           	detail/dt_metal1               	1.0			1.0
+trrm_pan8           	detail/dt_metal1               	1.0			1.0
+xcrate11d           	detail/dt_metal1               	1.0			1.0
+xcrate11e           	detail/dt_metal1               	1.0			1.0
+xcrate12b           	detail/dt_metal1               	1.0			1.0
+
+// End detail texture file.
+// What are you doing here? 
+// I hope you have not modified something...
+// If you did.. I hope you knew what you're doing...
